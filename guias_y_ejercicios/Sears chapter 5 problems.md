@@ -10,7 +10,7 @@ status: draft
 
 ## Problem 5.74
  A window washer pushes his scrub brush up a vertical window at constant speed by applying a force $\vec{F}$ as shown in Fig. P5.74. The brush weighs $15.0 N$ and the coefficient of kinetic friction is $\mu_{k} =0.150$. Calculate (a) the magnitude of the force  and (b) the normal force exerted by the window on the brush.
- ![Pasted image 20260329015942](assets/Pasted%20image%2020260329015942.png)
+ ![Pasted image 20260329015942](../assets/Pasted%20image%2020260329015942.png)
 ### Solution
 The brush is pushed up with constant speed, that means that no acceleration is present and thus we will have to use Newton's First Law equations. Our target variables are: (a) magnitude of force $\vec{F}$ and normal force $\vec{n}$. We'll need two equations for these.
 
@@ -252,6 +252,6 @@ $$
 
 Solving (9), we get that the minimum coefficient needed is $\mu_{s} = 0.34$
 ## Problem 5.110
-![Pasted image 20260329021738](assets/Pasted%20image%2020260329021738.png)
+![Pasted image 20260329021738](../assets/Pasted%20image%2020260329021738.png)
 ## Problem 5.125
-![Pasted image 20260329020652](assets/Pasted%20image%2020260329020652.png)
+![Pasted image 20260329020652](../assets/Pasted%20image%2020260329020652.png)

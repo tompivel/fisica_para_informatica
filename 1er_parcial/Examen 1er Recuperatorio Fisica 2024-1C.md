@@ -11,7 +11,7 @@ status: draft
 
 Una partícula puntual de masa $m$ parte del reposo desde el extremo superior de un plano inclinado de masa $M$ que es libre de moverse horizontalmente, como se indica en la figura. El plano también se halla en reposo en el instante inicial y existe rozamiento entre la masa y el plano, no así entre el plano y el suelo.
 
-![Pasted image 20260524113415](assets/Pasted%20image%2020260524113415.png)
+![Pasted image 20260524113415](../assets/Pasted%20image%2020260524113415.png)
 
 - **a)** ¿Se conserva alguna componente del momento lineal del sistema? 
     

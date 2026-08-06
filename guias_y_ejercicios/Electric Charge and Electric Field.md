@@ -14,14 +14,14 @@ Four identical charges $Q$ are placed at the corners of a square of side $L$ .
 
 ### Resolution
 ## Sears 21.64
-![Pasted image 20260423015325](assets/Pasted%20image%2020260423015325.png)
+![Pasted image 20260423015325](../assets/Pasted%20image%2020260423015325.png)
 ### Resolution
 
 ## Sears 21.78
-![Pasted image 20260423015556](assets/Pasted%20image%2020260423015556.png)
+![Pasted image 20260423015556](../assets/Pasted%20image%2020260423015556.png)
 
 ## Guía Práctica Electroestática 1.4
-![Pasted image 20260423015850](assets/Pasted%20image%2020260423015850.png)
+![Pasted image 20260423015850](../assets/Pasted%20image%2020260423015850.png)
 ### Resolución
 Asumiendo que $q_{0}$ tiene carga positiva:
 Adoptamos como ejes x e y en las direcciones de las fuerzas por comodidad. Buscamos los valores $q_{1}$ y $q_{2}$ para que la fuerza electrica sobre la carga puntual $q_{0}$ sea 0.
@@ -49,7 +49,7 @@ $$
 La respuesta es unica y no depende del lado del cuadrado o del signo o valor de $q_{0}$. Los valores para $q_{1}$ y $q_{2}$ son $-1nC$ y $2nC$ respectivamente.
 
 ## Guía Práctica Electroestática 1.5
-![Pasted image 20260423015819](assets/Pasted%20image%2020260423015819.png)
+![Pasted image 20260423015819](../assets/Pasted%20image%2020260423015819.png)
 ### Resolucion punto a
 Se nos pide calcular la fuerza electrica ejercida por una carga lineal de largo $L$ y de densidad lineal uniforme $\lambda$ en una carga puntual $q_{o}$.
 
@@ -253,7 +253,7 @@ comparamos las diferencias porcentuales
 - Para 2m: $\frac{F_{xc}-F_{xb}}{Fxc}\times 100 = 87.6\%$
 Podemos concluir que cuando $L\gg x$, es aproximadamente equivalente a la realidad tratar la carga como si estuviera distribuida infinitamente.
 ## Guía Práctica Electroestática 1.6
-![Pasted image 20260423015609](assets/Pasted%20image%2020260423015609.png)
+![Pasted image 20260423015609](../assets/Pasted%20image%2020260423015609.png)
 ### Resolucion punto a
 Para analizar el campo electrico sobre todo punto sobre el eje x, utilizamos la superposicion de campos: $\vec{E_{1} + \vec{E_{2}} = \vec{E}}$.
 Podemos observar a simple vista que la direccion de $\vec{E}$ sera paralela al eje x y por tanto tendra una componente sobre el eje y nula. Es decir $\vec{E} = k \hat{i}$.

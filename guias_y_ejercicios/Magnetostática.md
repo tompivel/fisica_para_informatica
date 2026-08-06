@@ -143,7 +143,7 @@ $$
 Para este conductor, tenemos que el versor resulta:
 Tenemos que $\vec{r}$ es $\vec{r}_{P} - \vec{r}_{tramo} =  z \hat{k} - \left(x \hat{i} - \frac{L}{2} \hat{j} + 0 \hat{k} \right) = -x \hat{i} + \frac{L}{2} \hat{j} + z \hat{k}$. 
 Sabiendo que $d \vec{l} = -dx \hat{i}$, calculamos el producto vectorial:
-![Pasted image 20260620141458](assets/Pasted%20image%2020260620141458.png)
+![Pasted image 20260620141458](../assets/Pasted%20image%2020260620141458.png)
 $$
 d \vec{l} \times \vec{r}  = 0 \hat{i} + dx z \hat{j} + dx \frac{L}{2} \hat{k}
 $$
@@ -257,7 +257,7 @@ Resolver el Problema 3b) utilizando condiciones de simetría y la Ley de Ampere.
 #### 1. Consideraciones Geométricas (Justificación del campo)
 
 Se define un sistema de coordenadas cilíndricas $(r, \phi, z)$ con el eje $z$ coincidiendo con el eje longitudinal del solenoide.
-  ![Pasted image 20260621140419](assets/Pasted%20image%2020260621140419.png)  
+  ![Pasted image 20260621140419](../assets/Pasted%20image%2020260621140419.png)  
 - **Inexistencia de componente radial ($B_r = 0$):** Por la longitud infinita, si existiera una componente radial, las líneas de campo divergirían desde el eje. El flujo magnético a través de un cilindro coaxial cerrado no sería nulo, violando la Ley de Gauss para el magnetismo ($\oint \vec{B} \cdot d\vec{A} = 0$, no existen monopolos magnéticos). Por tanto, el campo no entra ni sale radialmente del tubo.
 - **Inexistencia de componente azimutal ($B_\phi = 0$):** Modelamos el solenoide ideal como un apilamiento continuo de espiras circulares perfectas, donde la corriente fluye estrictamente en la dirección azimutal ($\hat{\phi}$). La Ley de Biot-Savart dicta que un elemento de corriente genera un campo perpendicular a sí mismo; una corriente puramente azimutal no puede generar un campo magnético azimutal.
 - **Dirección puramente axial:** Descartadas las componentes radial y azimutal, el campo magnético solo puede tener componente longitudinal $\vec{B} = B_z \hat{k}$.
@@ -303,7 +303,7 @@ $$B = \mu_0 n I$$
 Como este resultado final es completamente independiente de la variable $r$ (la distancia radial a la que colocaste inicialmente el tramo $a \to b$), **queda demostrado matemáticamente que el campo es perfectamente uniforme en cualquier punto interior del solenoide transversal**.
 
 ### Problema 5
-![Pasted image 20260622105710](assets/Pasted%20image%2020260622105710.png)
+![Pasted image 20260622105710](../assets/Pasted%20image%2020260622105710.png)
 **a)** Calcular la fuerza sobre cada tramo y la fuerza resultante sobre la espira rectangular de la figura, por la cual circula una corriente $I_2$, debida al campo generado por un alambre muy largo paralelo a la espira, que transporta una corriente $I_1$. Calcule para $I_1 = 10\text{ A}$ e $I_2 = 0.1\text{ A}$.
 
 **b)** Calcular el momento que actúa sobre la espira, respecto de la línea de trazos que pasa por su centro. ¿Cambia el resultado si se cambia el "eje"?
@@ -914,4 +914,4 @@ Habíamos definido las zonas del toroide:
 - **Zona Exterior ($r > 50\text{ cm}$):** El toroide aporta $B=0$. El campo del hilo sigue existiendo hasta el infinito. $B_{neto} = B_{hilo}$.
 
 Con la introducción de ese hilo central para "limpiar" el campo dentro del toroide, terminaste **ensuciando todo el resto del universo**.
-![Pasted image 20260624104746](assets/Pasted%20image%2020260624104746.png)
+![Pasted image 20260624104746](../assets/Pasted%20image%2020260624104746.png)

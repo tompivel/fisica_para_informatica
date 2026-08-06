@@ -13,7 +13,7 @@ status: draft
 
 ## Ejercicio 1
 ### Resolución
-![Pasted image 20260628152322](assets/Pasted%20image%2020260628152322.png)
+![Pasted image 20260628152322](../assets/Pasted%20image%2020260628152322.png)
 
 En el circuito de la figura todas las resistencias son iguales y las pilas también lo son entre sí. Calcular la diferencia de potencial entre los puntos A y B.
 
@@ -30,7 +30,7 @@ El diagrama muestra un circuito eléctrico de corriente continua con dos mallas 
 ### Resolución
 
 ## Ejercicio 2
-![Pasted image 20260628152348](assets/Pasted%20image%2020260628152348.png)
+![Pasted image 20260628152348](../assets/Pasted%20image%2020260628152348.png)
 
 Por un hilo conductor muy largo circula una corriente constante $I$.
 
@@ -50,7 +50,7 @@ La imagen consta de cuatro paneles o viñetas contiguas. Cada panel muestra un h
 
 ### Resolución
 ## Ejercicio 3
-![Pasted image 20260628152358](assets/Pasted%20image%2020260628152358.png)
+![Pasted image 20260628152358](../assets/Pasted%20image%2020260628152358.png)
 
 En el circuito de la figura se enciende la fuente y se establece la situación estacionaria (una vez agotado el transitorio). Se mide el desfasaje de la corriente que pasa por la fuente, dando como resultado $\varphi_1 = \frac{\pi}{4}$. Se mide también la potencia activa que entrega la fuente (valor medio de la potencia temporal), y el resultado es $\langle P_f \rangle = 500\text{ W}$. Si la tensión de pico de la fuente es $V_0 = 10\text{ V}$ y la frecuencia es $f = \frac{100}{2\pi}\text{ Hz}$, hallar los valores de $R$ y $C$.
 

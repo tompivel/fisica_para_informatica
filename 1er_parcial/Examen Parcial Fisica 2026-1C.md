@@ -163,7 +163,7 @@ q_{3} = (0,0) \\
 A = (a,a)
 \end{align}
 $$
-![Pasted image 20260513124604](assets/Pasted%20image%2020260513124604.png)
+![Pasted image 20260513124604](../assets/Pasted%20image%2020260513124604.png)
 
 
 - **a)** ¿Qué valor debe tomar $q_{3}$ para que el campo eléctrico en el punto $A$ sea nulo?
@@ -172,7 +172,7 @@ $$
 
 #### Resolución
 ##### Punto a
-![Pasted image 20260519093949](assets/Pasted%20image%2020260519093949.png)
+![Pasted image 20260519093949](../assets/Pasted%20image%2020260519093949.png)
 Para resolver este punto, usaremos la ley de coulomb para el caso de varias cargas puntuales y el principio de superposición de campos eléctricos. Tenemos entonces que en el punto A, donde la distancia r entre A y $q_1$ y $q_2$ es $a$, y la distancia entre A y $q_3$ es $\sqrt{ a^2 + a^2 } = \sqrt{ 2 }a$ el campo eléctrico total percibido es:
 $$
 \begin{align}
@@ -325,7 +325,7 @@ l_{o}  & = 0.09m
 $$
 ##### Punto a
 Proponemos un plano donde el eje x es paralelo a la rampa (con dirección positiva a la izquierda) y el eje y es perpendicular (dirección positiva hacia arriba), con un origen situado en en el fondo de la rampa. 
-![Pasted image 20260521100759](assets/Pasted%20image%2020260521100759.png)
+![Pasted image 20260521100759](../assets/Pasted%20image%2020260521100759.png)
 Por tanto, utilizando primera ley de newton, tenemos:
 $$
 \begin{align}
@@ -420,7 +420,7 @@ x_{2} & = -0.09m
 \end{align}
 $$
 La primera solución no hace sentido físico, mientras que la segunda sugiere que las masas terminan impactando con la base de la rampa. Por tanto, para este problema se propone $x_{max}=0m$ y por ende la compresión máxima termina siendo la longitud natural del resorte $l_{0} = 9cm$.
-![Pasted image 20260511181345](assets/Pasted%20image%2020260511181345.png)
+![Pasted image 20260511181345](../assets/Pasted%20image%2020260511181345.png)
 
 ## Intento
 ### Ejercicio 1
@@ -552,7 +552,7 @@ $$
 $$
 
 ### Ejercicio 3
-![Pasted image 20260528160437](assets/Pasted%20image%2020260528160437.png)
+![Pasted image 20260528160437](../assets/Pasted%20image%2020260528160437.png)
 #### Punto A
 #### Punto B
 #### Punto C
@@ -621,4 +621,4 @@ V(r) = \begin{cases}
 \frac{q}{4\pi\epsilon_{0}r}& \text{si} & r > r_{b}
 \end{cases}
 $$
-Ver [Principio de Superposicion para Calculo de Potencial](Principio%20de%20Superposicion%20para%20Calculo%20de%20Potencial.md) para approach alternativo de resolucion de este punto.
+Ver [Principio de Superposicion para Calculo de Potencial](../notas/Principio%20de%20Superposicion%20para%20Calculo%20de%20Potencial.md) para approach alternativo de resolucion de este punto.

@@ -16,7 +16,7 @@ status: draft
 ## Ejercicio 1
 
 En el circuito de la figura, todas las resistencias son múltiplos de $R$ y la pila tiene un voltaje $V_0$. En el estado **estacionario**, calcular:
-![Pasted image 20260628153950](assets/Pasted%20image%2020260628153950.png)
+![Pasted image 20260628153950](../assets/Pasted%20image%2020260628153950.png)
 
 a. La potencia que entrega la pila.
 
@@ -101,7 +101,7 @@ d. Si queremos aumentar el tiempo característico de un circuito de carga R-C, b
 _(Este ejercicio no cuenta con figura asociada)._
 
 ## Ejercicio 4
-![Pasted image 20260628154033](assets/Pasted%20image%2020260628154033.png)
+![Pasted image 20260628154033](../assets/Pasted%20image%2020260628154033.png)
 
 Una instalación eléctrica domiciliaria puede representarse por una resistencia equivalente $R$ ($R$ = 100 Ω) en serie con una autoinductancia $L$ ($L$ = 0.32 Hy). Si la compañía eléctrica alimenta la instalación con una corriente alterna de $V_{ef}$ = 220 V y $f$ = 50 Hz, encuentre:
 
@@ -139,5 +139,5 @@ Hay dos esquemas de circuitos de corriente alterna que acompañan el problema:
 
 ---
 
-![Pasted image 20260628153921](assets/Pasted%20image%2020260628153921.png)
-![Pasted image 20260628153928](assets/Pasted%20image%2020260628153928.png)
+![Pasted image 20260628153921](../assets/Pasted%20image%2020260628153921.png)
+![Pasted image 20260628153928](../assets/Pasted%20image%2020260628153928.png)

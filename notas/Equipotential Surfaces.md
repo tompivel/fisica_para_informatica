@@ -8,10 +8,10 @@ status: draft
 ---
 # Equipotential Surfaces
 Surfaces that hold the same potential $V$ everywhere. Los conductores son volúmenes equipotenciales. 
-![Pasted image 20260527114938](assets/Pasted%20image%2020260527114938.png)
+![Pasted image 20260527114938](../assets/Pasted%20image%2020260527114938.png)
 ## Conductor with a cavity
 In an electrostatic situation, if a conductor contains a cavity and if no charge is present inside the cavity, then there can be no net charge anywhere on the surface of the cavity.
-![Pasted image 20260527115243](assets/Pasted%20image%2020260527115243.png)
+![Pasted image 20260527115243](../assets/Pasted%20image%2020260527115243.png)
 ### Proof
 
 The inner surface of the cavity is an equipotential surface precisely because it forms the physical boundary of the conductor's solid volume. Here is the logical progression that justifies this step in the proof:

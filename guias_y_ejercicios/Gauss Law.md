@@ -8,7 +8,7 @@ status: draft
 ---
 # Gauss Law
 ## Guia electroestatica 2.1
-![Pasted image 20260424194004](assets/Pasted%20image%2020260424194004.png)
+![Pasted image 20260424194004](../assets/Pasted%20image%2020260424194004.png)
 ### Resolucion
 Segun la ley de gauss, el flujo electrico sobre una superficie gaussiana es igual a:
 $$
@@ -26,7 +26,7 @@ $$
 La cantidad no cambia al cambiar la superficie gaussiana, el flujo electrico no depende de la forma de la superficie elegida. 
 
 ## Guia electroestatica 2.2
-![Pasted image 20260424194038](assets/Pasted%20image%2020260424194038.png)
+![Pasted image 20260424194038](../assets/Pasted%20image%2020260424194038.png)
 ### Resolucion
 Dado que el campo electrico varia respecto a la coordenada, la distribucion de carga no es uniforme. Vamos a obtener el flujo electrico calculando el flujo por cada cara del cubo y luego sumaremos todos los resultados para obtener el flujo total en la superficie.
 $$
@@ -246,7 +246,7 @@ $$
 $$
 
 ## Guia electroestatica 2.3
-![Pasted image 20260425034445](assets/Pasted%20image%2020260425034445.png)
+![Pasted image 20260425034445](../assets/Pasted%20image%2020260425034445.png)
 ### Resolucion
 Asumiendo que la superficie descrita (el hemisferio) es una superficie abierta (sin la tapa circular plana del hemisferio), planteamos lo siguiente: Si añadimos la tapa circular plana al hemisferio para convertirla en una superficie cerrada, hemos creado una superficie sin carga interior, y por tanto el flujo electrico total de esta superficie sera 0. Podemos descomponer este flujo total como la suma de los flujos de las caras individuales del hemisferio cerrado (la curva y la cara plana)
 $$
@@ -273,7 +273,7 @@ Siendo el area de la cara plana igual a $\pi R^2$. Entonces $-EA = -E\pi R^2$.
 Entonces sigue que el flujo que atraviesa la cara curva del hemisferio es $- (-E\pi R^2) = E\pi R^2$.
 
 ## Guia electroestatica 2.4
-![Pasted image 20260425041608](assets/Pasted%20image%2020260425041608.png)
+![Pasted image 20260425041608](../assets/Pasted%20image%2020260425041608.png)
 ### Resolucion
 #### punto a
 Se sabe que una distribucion lineal infinita de carga con densidad lineal uniforme $\lambda$ distribuye un campo electrico radial hacia afuera (si la densidad es positiva). Usando coordenadas cilindricas, podemos argumentar que por la simetria de traslacion, el campo no depende de la coordenada z, y por la simetria cilindrica, el campo no depende del angulo $\theta$. El campo electrico en algun punto del espacio solo termina dependiendo de la distancia $r$  del cable. Por tanto, las caracteristicas de simetria en el campo electrico generado sugiere que hagamos uso de una superficie gaussiana cilindrica, de radio r y longitud l, coaxial con la carga y con sus extremos perpendiculares a la carga.

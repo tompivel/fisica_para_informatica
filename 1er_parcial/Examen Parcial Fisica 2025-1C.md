@@ -11,7 +11,7 @@ CB024 Física para Informática - Primer parcial
 1er Cuatrimestre 2025
 ## Ejercicio 1
 Una partícula puntual de masa $m$ se halla apoyada en una plataforma móvil de masa $M=3m$, comprimiendo un resorte no adherido a la partícula. Hay rozamiento entre la partícula y la plataforma, pero no entre la plataforma y el piso. Inicialmente, todo el conjunto se halla en reposo. En un dado instante, el resorte se suelta y, en el instante que la masa se libera de dicho resorte, la velocidad de la partícula respecto de la plataforma es $\vec{v}_0^{\,\prime}$.
-![Pasted image 20260521125059](assets/Pasted%20image%2020260521125059.png)
+![Pasted image 20260521125059](../assets/Pasted%20image%2020260521125059.png)
 - **a.** ¿Qué magnitudes se conservan?
 - **b.** En el instante en que la partícula se libera y tiene velocidad $\vec{v}_0^{\,\prime}$ respecto de la plataforma, ¿cuál es la velocidad de la plataforma respecto del piso?
 - **c.** Como hay rozamiento entre la partícula y la plataforma, la partícula recorre una distancia $d$ a lo largo de la plataforma y se frena, respecto de ésta. En ese instante, ¿cuánto se desplazó la plataforma, respecto de donde se encontraba en el instante en que se liberó la partícula del resorte? ¿Qué velocidad tiene la plataforma respecto del piso?

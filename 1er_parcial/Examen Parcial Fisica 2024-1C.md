@@ -10,7 +10,7 @@ status: draft
 ## Ejercicio 1
 
 Una partícula puntual de masa $m_{1}$ parte del reposo desde el extremo superior de un plano inclinado con rozamiento despreciable, como se indica en la figura. Al llegar a la parte más baja impacta sobre otra partícula de masa $m_{2}$ la que se encontraba en reposo. Como consecuencia del impacto, la masa $m_1$ queda detenida en ese lugar y la otra partícula comienza a moverse.
-![Pasted image 20260524084345](assets/Pasted%20image%2020260524084345.png)
+![Pasted image 20260524084345](../assets/Pasted%20image%2020260524084345.png)
 
 - **a)** ¿Con qué velocidad impacta la masa 1 a la masa 2?
     
@@ -79,7 +79,7 @@ Por tanto, se tiene que cumplir que las masas deben ser iguales para que el choq
  Si la masa $m_{1}$ es mayor que $m_{2}$, la situación descrita en el enunciado no puede suceder. La velocidad de $m_{2}$ después del impacto será mayor que la velocidad de $m_{1}$, afectando directamente a la relación de energías cinéticas obtenida: $\frac{K_{C}}{K_{B}}=\frac{m_{1}}{m_{2}}$. Es decir, la energía cinética final sería mayor a la inicial, sin una reducción en la energía potencial gravitatoria, lo cuál sería imposible en este caso dado que no existen fuentes de energía interna afectando la energía mecánica del sistema durante la colisión.
 ## Ejercicio 2
 Un hilo muy largo se encuentra cargado con una densidad lineal de carga $\lambda$, uniformemente distribuida.
-![Pasted image 20260524094359](assets/Pasted%20image%2020260524094359.png)
+![Pasted image 20260524094359](../assets/Pasted%20image%2020260524094359.png)
 
 - **a)** Calcular el campo eléctrico que genera en todo el espacio.
     

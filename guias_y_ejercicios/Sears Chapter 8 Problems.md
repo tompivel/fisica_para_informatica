@@ -20,7 +20,7 @@ Assuming that the Po was initially at rest in this frame, find the recoil veloci
 
 ## 8.82
  A $0.150kg$ frame, when suspended from a coil spring, stretches the spring $0.070 m$. A $0.200kg$ lump of putty is dropped from rest onto the frame from a height of $30.0 cm$ (Fig. P8.82). Find the maximum distance the framemoves downward from its initial position.
- ![Pasted image 20260412181245](assets/Pasted%20image%2020260412181245.png)
+ ![Pasted image 20260412181245](../assets/Pasted%20image%2020260412181245.png)
 
 ### Resolution
 

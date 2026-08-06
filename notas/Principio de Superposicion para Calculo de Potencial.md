@@ -8,7 +8,7 @@ status: draft
 ---
 # Principio de Superposicion para Calculo de Potencial
 Se puede aplicar el principio de superposicion para el calculo de potenciales en distintas regiones. En este caso analizamos el punto d del ejercicio: 
-[Examen Parcial Fisica 2026-1C](Examen%20Parcial%20Fisica%202026-1C.md)
+[Examen Parcial Fisica 2026-1C](../1er_parcial/Examen%20Parcial%20Fisica%202026-1C.md)
 
 El principio de superposición **no excluye ni ignora** ninguna superficie en ninguna región. El hecho de que para $r > r_b$ el resultado sea visualmente idéntico al de una única carga puntual no es una decisión arbitraria, sino el resultado de una **cancelación matemática exacta**.
 

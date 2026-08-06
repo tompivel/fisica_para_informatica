@@ -13,7 +13,7 @@ Física para Informática - 1er Cuatrimestre 2024
 Guía 3: Inducción electromagnética
 
 **1.** La bobina de la figura está dentro de un campo $\vec{B}$ normal a su plano que varía como $B=(0.04+0.01~t)~\text{T}$, para $t$ medido en segundos. Si la bobina tiene 50 espiras, determinar el valor de la f.e.m. inducida en la bobina en función del tiempo e indique el sentido de la corriente que se induciría en la bobina. Considere que $a=5~\text{cm}$ (ancho) y $b=10~\text{cm}$ (alto).
-![Pasted image 20260624105815](assets/Pasted%20image%2020260624105815.png)
+![Pasted image 20260624105815](../assets/Pasted%20image%2020260624105815.png)
 
 ### Resolución 1
 Interpretamos cada vuelta de la bobina como una espira que forma un circuito cerrado. Definimos el vector área $\vec{A}$ con dirección hacia adentro de la página $\hat{k}$, en la misma dirección que el campo $\vec{B}$.
@@ -45,7 +45,7 @@ $$
 
 **2.** El cuadro de la figura de $5~\text{cm}$ de lado, que se mueve a una velocidad uniforme de $3~\text{m/s}$, penetra en una región de $20~\text{cm}$ de lado donde hay un campo $\vec{B}$, uniforme y normal a la dirección del movimiento, de intensidad $B=0.2~\text{T}$. Si el cuadro está formado por 50 espiras, determinar y graficar el valor de la f.e.m. inducida sobre él en función de su posición. Si el cuadro es de un material conductor, determinar el valor y el sentido de la corriente inducida.
 
-![Pasted image 20260625124322](assets/Pasted%20image%2020260625124322.png)
+![Pasted image 20260625124322](../assets/Pasted%20image%2020260625124322.png)
 ### Resolución
 El problema acá reside en que al recién penetrar a la región de 0.2m de lado, solo una parte del área del cuadrado estará siendo sometido al campo de la región. De manera análoga, este problema también ocurre al recién empezar a salir de la región. Mientras todo el cuadrado se encuentra contenido en la región, el campo y el área del cuadrado serán el mismo, y por tanto $d \frac{\Phi_{B}}{dt} =0$ y la f.e.m será 0. Es decir, en este problema no es $\vec{B}$ el que varía, sino el área del cuadrado $\vec{A}$.
 
@@ -147,7 +147,7 @@ Mientras el cuadrado va entrando a la región, obtiene una f.e.m en dirección c
 
 **3.** Una bobina rectangular con lados $a=5~\text{cm}$ y $b=10~\text{cm}$, formada por 100 espiras gira con una frecuencia angular constante de $1500~\text{r.p.m.}$ en un campo $\vec{B}$ uniforme con $B=1~\text{T}$ Graficar el valor de la f.e.m. inducida en función del ángulo de giro y hallar sus valores en las posiciones 1, 2 y 3.
 
-![Pasted image 20260625124430](assets/Pasted%20image%2020260625124430.png)
+![Pasted image 20260625124430](../assets/Pasted%20image%2020260625124430.png)
 
 ### Resolución
 El campo que atraviesa la bobina va a depender del ángulo en el cual la misma se encuentra posicionada con respecto al campo, efectivamente alterando el flujo magnético a medida que la bobina recorre distintos ángulos. Tomaremos el vector del área $\vec{A}$ siguiendo las líneas del campo en la posición 1, también tendremos en consideración que el campo es uniforme y forma el mismo ángulo para cada punto de la bobina en cada posición determinada. Lo que significa que para una posición determinada:
@@ -234,7 +234,7 @@ Evaluamos en las posiciones indicadas:
     $$\mathcal{E}(90^\circ) = 25\pi \sin(90^\circ) = 25\pi~\text{V} \approx 78.54~\text{V}$$
 
 El problema también requiere "Graficar el valor de la f.e.m. inducida en función del ángulo de giro". Debes incluir un gráfico de una onda senoidal estándar partiendo del origen $(0,0)$, con un pico máximo de $78.54~\text{V}$ en $\theta = \frac{\pi}{2}$ ($90^\circ$) y cruzando el eje horizontal en $\theta = \pi$ ($180^\circ$).
-![Pasted image 20260625142553](assets/Pasted%20image%2020260625142553.png)
+![Pasted image 20260625142553](../assets/Pasted%20image%2020260625142553.png)
 
 --- 
 **4.** Un conductor rectilíneo muy largo lleva una corriente variable en el tiempo $I(t)$.
@@ -242,7 +242,7 @@ El problema también requiere "Graficar el valor de la f.e.m. inducida en funci�
 - **a)** Si el cuadro se aleja con velocidad constante $\vec{v}$, calcular la fuerza electromotriz inducida y el sentido de la corriente inducida en el cuadro si $I(t)$ es creciente. Considerar $x(0)=D$ (ver figura).
 - **b)** Repetir el cálculo si la velocidad del cuadro es paralela al conductor rectilíneo.
     
-![Pasted image 20260625142607](assets/Pasted%20image%2020260625142607.png)
+![Pasted image 20260625142607](../assets/Pasted%20image%2020260625142607.png)
 
 ### Resolucion
 _(Asumiremos por convención estándar que la figura muestra una espira rectangular de altura $a$ paralela al cable, y ancho $b$ perpendicular al cable. El cable largo coincide con el eje $y$)._

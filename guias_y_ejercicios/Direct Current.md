@@ -41,7 +41,7 @@ $$
 ### Ejercicio 2
 
 Dos conductores cilíndricos están conectados como muestra la figura. El azul tiene diámetro $d_1 = 1$ mm, largo $L_1 = 100$ cm y conductividad $\sigma_1 = 2 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$. El rojo tiene diámetro $d_2 = 2$ mm, largo $L_2 = 200$ cm y conductividad $\sigma_2 = 1 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$. La corriente circula en la dirección del eje de los cilindros y el voltaje entre los extremos del conductor azul es $V_1 = 0.1$ V. Calcular el voltaje $V_2$ entre los extremos del conductor rojo.
-![Pasted image 20260604122931](assets/Pasted%20image%2020260604122931.png)
+![Pasted image 20260604122931](../assets/Pasted%20image%2020260604122931.png)
 **Descripción de la topología (Geometría 3D):**
 
 - Dos cilindros sólidos coaxiales conectados en serie.
@@ -104,7 +104,7 @@ $$I_{\text{total}} = 1.2 \times 10^{-9}\text{ A} + 1.2 \times 10^{-9}\text{ A} =
 ### Ejercicio 4
 
 Determinar la resistencia equivalente de los circuitos de la figura:
-![Pasted image 20260605105411](assets/Pasted%20image%2020260605105411.png)
+![Pasted image 20260605105411](../assets/Pasted%20image%2020260605105411.png)
 #### Circuito 1 (Izquierda)
 
 #### Definición de Nodos
@@ -163,7 +163,7 @@ $$R_{\text{eq}} = \frac{1020}{121} + 10 + 20 = 30 + 8.43 = 38.43 \ \Omega$$
 
 ### Ejercicio 5
 Hallar las corrientes en todas las ramas del circuito de la figura.
-![Pasted image 20260605112701](assets/Pasted%20image%2020260605112701.png)
+![Pasted image 20260605112701](../assets/Pasted%20image%2020260605112701.png)
 #### Definición de Nodos
 
 - **Nodo 0 (Tierra):** Conecta el polo negativo de la fuente de 10V y el extremo izquierdo de la resistencia inferior de $10\ \Omega$.
@@ -238,7 +238,7 @@ $$I_{\text{top der}} = I_{\text{der vert}} = \frac{V_{eq_{2}}}{R_{eq_{1}}} = \fr
 ### Ejercicio 6
 
 Para el siguiente circuito, calcular: 
-![Pasted image 20260605121330](assets/Pasted%20image%2020260605121330.png)
+![Pasted image 20260605121330](../assets/Pasted%20image%2020260605121330.png)
 #### Definición de Nodos
 
 - **Nodo 0:** Rama vertical del extremo derecho. Conecta los terminales derechos de la resistencia superior (6 Ω), la central (3 Ω) y la inferior (6 Ω). Se toma como nodo de referencia (Tierra).
@@ -299,7 +299,7 @@ $$Consumo_{L_{\text{cerrada}}} = 0.018\text{ kW} \times 48\text{ h} = 0.864\text
 
 Para el circuito de la figura, calcular las diferencias de potencial de los puntos A, B y C respecto a la referencia tierra cuando la llave L está abierta y cuando L está cerrada. Todas las resistencias son de 10 $\Omega$ y las baterías de 10 V.
 
-![Pasted image 20260605224418](assets/Pasted%20image%2020260605224418.png)
+![Pasted image 20260605224418](../assets/Pasted%20image%2020260605224418.png)
 #### Definición de Nodos
 
 - **Nodo 0 (Tierra):** Línea vertical central (marcada con el símbolo de tierra). Conecta el extremo derecho del resistor de la rama A, el extremo derecho del resistor de la rama B, el extremo derecho del resistor de la rama C, el extremo izquierdo del resistor superior derecho y el retorno inferior del interruptor L.
@@ -329,7 +329,7 @@ $$
 I_{A} + I_{B} + I_{C}  & = 0  \tag{1}\\
 \end{align}
 $$
-Ademas, se puede apreciar que el voltaje del nodo 1 es el mismo en los puntos A, B y C dado que comparten el mismo conductor sin intereferencias de resistencias o pilas que generen algún diferencial, de manera que $V_{A} = V_{B}= V_{C} = V_{1}$. Por tanto, podemos calcular las corrientes de cada rama usando la ley de ohm generalizada ([Ley de Ohm Generalizada](Ley%20de%20Ohm%20Generalizada.md)).
+Ademas, se puede apreciar que el voltaje del nodo 1 es el mismo en los puntos A, B y C dado que comparten el mismo conductor sin intereferencias de resistencias o pilas que generen algún diferencial, de manera que $V_{A} = V_{B}= V_{C} = V_{1}$. Por tanto, podemos calcular las corrientes de cada rama usando la ley de ohm generalizada ([Ley de Ohm Generalizada](../notas/Ley%20de%20Ohm%20Generalizada.md)).
 $$
 I = \frac{V_{\text{nodo}} - V_{\text{fuente}}}{R} \tag{2}
 $$
@@ -355,7 +355,7 @@ La figura representa un trozo de circuito en el que se conocen las corrientes $I
 - b) Los valores de $R_x$ y $R_y$.
 - c) La diferencia de potencial $V_A - V_D$. ¿Cuál es la fem equivalente que habría que aplicar al circuito con extremos en A y D para conseguir las mismas corrientes? 
 - d) Calcular la potencia entregada al circuito.
-![Pasted image 20260605224431](assets/Pasted%20image%2020260605224431.png)
+![Pasted image 20260605224431](../assets/Pasted%20image%2020260605224431.png)
 #### Definición de Nodos
 
 - **Nodo A:** Terminal de entrada A. Conecta el extremo izquierdo del resistor $R$.
@@ -420,7 +420,7 @@ $$
 ### Ejercicio 9
 
 En el circuito de la figura los dos amperímetros marcan 1.70 A y la potencia entregada por la fuente es de 300 W. Determinar $R_1$, $R_2$ y la tensión de la fuente.
-![Pasted image 20260605224536](assets/Pasted%20image%2020260605224536.png)
+![Pasted image 20260605224536](../assets/Pasted%20image%2020260605224536.png)
 
 #### Definición de Nodos
 
@@ -489,7 +489,7 @@ R_{\text{eq der}}  & = \frac{V_{\text{total}}}{I_{\text{sup der}}} \implies R_{2
 $$
 ### Ejercicio 10
 ¿Cuál es la diferencia de potencial entre los puntos P y Q?
-![Pasted image 20260605224549](assets/Pasted%20image%2020260605224549.png)
+![Pasted image 20260605224549](../assets/Pasted%20image%2020260605224549.png)
 
 #### Circuito 1 (Izquierda)
 
@@ -557,7 +557,7 @@ Esto quiere decir que la diferencia entre el potencial de P con respecto a Q es 
 
 Para la porción del circuito que se ilustra calcule las corrientes en las ramas AB, AC y CB y las diferencias de potencial entre estos puntos. Indique por qué no puede realizarse en este caso un balance de potencias.
 
-![Pasted image 20260605224602](assets/Pasted%20image%2020260605224602.png)
+![Pasted image 20260605224602](../assets/Pasted%20image%2020260605224602.png)
 
 #### Definición de Nodos
 

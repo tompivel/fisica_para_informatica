@@ -19,7 +19,7 @@ $$k = \frac{6m_1g}{l_0}$$
 
 Donde $g$ es la aceleración de la gravedad.
 
-![Pasted image 20260525104647](assets/Pasted%20image%2020260525104647.png)
+![Pasted image 20260525104647](../assets/Pasted%20image%2020260525104647.png)
 
 El conjunto se halla apoyado en una superficie sin rozamiento e inicialmente en reposo. A una distancia $2l_0$ de la masa $m_1$ se encuentra apoyada en la superficie otra masa puntual $m_3$ ($m_3 = 4m_1$), también en reposo y sin rozamiento con la superficie.
 
@@ -165,7 +165,7 @@ Cuatro cargas puntuales están ubicadas en los vértices de un rectángulo aline
 - $q_3$ en el tercer cuadrante: $(-b, -a)$
 - $q_4$ en el cuarto cuadrante: $(b, -a)$
 
-![Pasted image 20260526090708](assets/Pasted%20image%2020260526090708.png)
+![Pasted image 20260526090708](../assets/Pasted%20image%2020260526090708.png)
 
 Se conocen los valores de las cargas $q_1 = 10$ nC, $q_3 = -7$ nC y $q_4 = 20$ nC. Se ajustará el valor de la carga $q_2$ para que el campo eléctrico en el origen $O(0,0)$ esté contenido únicamente en el eje $x$.
 
@@ -285,12 +285,12 @@ Por tanto, $W_{ext} =  4.67 \micro J - 7.21 \micro J= -2.53 \mu J$. El trabajo d
 ## Problema 3: Electrostática - Conductores y Dieléctricos
 
 Dos conductores planos, con forma de chapa cuadrada de lados $L = 2$ cm y espesor $e = 1$ mm, están ubicados paralelamente entre sí, separados una distancia $d = 2$ mm. Inicialmente están conectados a una pila de valor $V_0 = 10$ V (**Figura a**).
-![Pasted image 20260528092335](assets/Pasted%20image%2020260528092335.png)
+![Pasted image 20260528092335](../assets/Pasted%20image%2020260528092335.png)
 
 - **a.** Si los conductores están inicialmente descargados, y despreciando efectos de borde, encuentre las densidades de carga que gana cada uno de ellos y el campo eléctrico en todo el espacio.
 
 - **b.** Después de equilibrarse, se desconectan de la pila y se introduce un material dieléctrico de permitividad relativa $\epsilon_r = 2$, ocupando un cuarto de la superficie de cada chapa, con un ancho de $L/4$ (**Figura b**). Calcule la redistribución de carga y los valores del campo eléctrico, también sin tener en cuenta efectos de borde.
-    ![Pasted image 20260528095312](assets/Pasted%20image%2020260528095312.png)
+    ![Pasted image 20260528095312](../assets/Pasted%20image%2020260528095312.png)
 - **c.** Recalcular la diferencia de potencial entre los conductores, una vez equilibrada la configuración del punto **b**.
 
 ### Resolución
@@ -313,7 +313,7 @@ $$E = \frac{V}{d} = \frac{10\text{ V}}{0.002\text{ m}} = 5000 \frac{\text{V}}{\t
 - **Por fuera del conjunto de placas (arriba y abajo):** El campo es nulo ($\vec{E} = 0$), asumiendo que despreciamos los efectos de borde como indica el problema.
 - **En el interior del material de las chapas:** El campo eléctrico es nulo dado que la carga se distribuye únicamente sobre las superficies enfrentadas. 
 #### Punto B
-Duda conceptual surgida:  [Adding a Dielectric, keeps the same Electric field and potential?](Adding%20a%20Dielectric,%20keeps%20the%20same%20Electric%20field%20and%20potential?.md)
+Duda conceptual surgida:  [Adding a Dielectric, keeps the same Electric field and potential?](../notas/Adding%20a%20Dielectric,%20keeps%20the%20same%20Electric%20field%20and%20potential?.md)
 Los conductores son volúmenes equipotenciales. Cada conductor, al desconectarles la pila, deben mantener un potencial $V_{\text{sup}}$ y $V_{\text{inf}}$ a través de toda la superficie de los conductores, independientemente de sí hay un diélectrico en alguna parte entre ambos. Esto genera un nuevo diferencial de potencial $V' = V_{\text{sup}}-V_{\text{inf}}$, el cuál será menor al diferencial original $V$ (dado que $C'>C \implies V'<V$.  
 
 Dado que ahora se introduce un material dieléctrico en una sección entre las placas, las cargas dentro de cada placa se deben redistribuir entre la sección dieléctrico y la sección con vacío para cumplir con este requerimiento de equipotencialidad, alternando la uniformidad de la densidad de carga. Dado que la carga total $Q$ almacenada en cada placa se debe conservar:

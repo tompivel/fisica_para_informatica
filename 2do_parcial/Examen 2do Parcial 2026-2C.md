@@ -88,4 +88,4 @@ c. Un campo magnético constante en el tiempo nunca puede inducir corrientes en 
 d. Un campo magnético uniforme en el espacio nunca puede inducir corrientes en un material conductor.
 
 
-![Pasted image 20260628154212](assets/Pasted%20image%2020260628154212.png)
+![Pasted image 20260628154212](../assets/Pasted%20image%2020260628154212.png)

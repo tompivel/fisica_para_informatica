@@ -14,7 +14,7 @@ status: draft
 ## Ejercicio 1
 
 La figura muestra una parte de un circuito más grande.
-![Pasted image 20260628152159](assets/Pasted%20image%2020260628152159.png)
+![Pasted image 20260628152159](../assets/Pasted%20image%2020260628152159.png)
 
 a. Encontrar las corrientes que circulan por cada rama de la figura.
 b. ¿Cuánto vale la corriente que sale por el nodo inferior?
@@ -36,8 +36,8 @@ El diagrama muestra un fragmento de un circuito con tres nodos dispuestos en for
 
 ### Resolución
 ## Ejercicio 2
-![Pasted image 20260628152222](assets/Pasted%20image%2020260628152222.png)
-![Pasted image 20260628152242](assets/Pasted%20image%2020260628152242.png)
+![Pasted image 20260628152222](../assets/Pasted%20image%2020260628152222.png)
+![Pasted image 20260628152242](../assets/Pasted%20image%2020260628152242.png)
 
 Un cilindro de radio $R$ y permeabilidad relativa $\mu_r=1000$, tiene dos arrollamientos superpuestos: uno de $1000$ vueltas y longitud $20\text{ cm}$ y otro de $5$ vueltas y longitud $1\text{ cm}$. El segundo arrollamiento está centrado respecto del primero y el cilindro es lo suficientemente largo como para justificar la aproximación de solenoide infinito para ambos bobinados. La primera bobina está alimentada con una fuente de corriente triangular de pendiente $0.3\text{ A/seg}$ y período $10\text{ seg}$ (ver figura). La segunda bobina alimenta una resistencia de $1\text{ k}\Omega$. Despreciando los efectos de autoinductancia del segundo bobinado.
 
