@@ -2,11 +2,13 @@
 
 Personal study notes on university physics (Electrostatics, DC/AC circuits, Magnetostatics, Inductance, and exam practice from _Sears & Zemansky's University Physics_).
 
-> Generated from an Obsidian vault: wikilinks were converted to standard Markdown so everything is readable on GitHub. Images live in [`assets/`](assets/).
+## Personal Experience
 
-## Start here
+Materia muy jodida, sobre todo por la cantidad de horas de estudio que demanda. La materia requiere de un entendimiento conceptual considerable (no es mecánica) de los temas así que creo que una gran clave es darle suficiente tiempo a entender conceptos abstractos como "conservación  de la energía" para la primera parte o "campo eléctrico/magnético" para la segunda parte.
 
-- [Physics for Software Engineers (index)](Physics%20for%20Software%20Engineers.md)
+Para los ejercicios de sistemas de partículas se enfocan mucho en que uses leyes de conservación de energía o conservación del momento para despejar variables. No me llegó a tocar un examen en el que haya tenido que despejar algo usando leyes de Newton, aunque siempre es un camino válido (aunque mucho más largo). Tampoco me crucé con problemas de movimiento circulares o velocidades angulares (cómo algún problema con un péndulo o algo así). Un excelente primer paso sería ir familiarizándose con  estas bases: Ley de Conservación de la Energía Mecánica y Ley de Conservación del Momento. Entender ambos temas requiere repasar operaciones vectoriales, sistemas de referencia, leyes de Newton.
+
+Los materiales de la cátedra que están buenos son las guías para practicar y unas clases de Física 2 de la época del Covid que sirven para la segunda parte de la materia. Ir a clases ultra no recomiendo, pero es cierto que el tradeoff de no ir a clases presenciales es que a veces te pierdes de cualquier centro que te puede tirar un profe del tipo: "en el parcial no entrará x tema". Yo estudié directamente con el libro Sears Física Universitaria y haciéndole preguntas a Gemini :D 
 
 ## Theory Notes
 
