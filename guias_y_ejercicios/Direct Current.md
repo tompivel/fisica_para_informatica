@@ -1,11 +1,3 @@
----
-id: 20260604105041
-aliases: []
-tags:
-  - uncataloged
-created: 2026-06-04 10:50
-status: draft
----
 # Guía 3: Circuitos con Capacitores y con Corrientes Estacionarias - Corriente continua
 
 ### Ejercicio 1
@@ -13,6 +5,7 @@ status: draft
 Un alambre de cobre de 2 mm de radio y 1 m de largo se estira hasta cuadruplicar su longitud. Deduzca la expresión de la resistencia de un alambre recto. Suponiendo constante la resistividad del material, calcule la resistencia antes y después del estiramiento. Buscar en Internet las propiedades relevantes del cobre.
 
 ### Resolucion
+
 $$
 \begin{align}
 \rho =  & \frac{E}{J} \implies \vec{E}  = \rho \vec{J} \\
@@ -22,12 +15,15 @@ V  & = EL  \\
 R  & = L \frac{\rho}{A}
 \end{align}
 $$
+
 La resistividad del cobre es $\rho = 1.72 \times 10^{-8}$. El area cross sectional $A$ es $\pi (0.002m)^2$. Por tanto, antes del estiramiento, la resistencia es:
+
 $$
 \begin{align}
 R_1  &  = 1 \text{ m} \times \frac{1.72 \times 10^{-8} \ \Omega\text{m}}{\pi \times (0.002 \text{ m})^2} \approx 1.369 \times 10^{-3} \ \Omega \text{ (o } 1.37 \text{ m}\Omega \text{)}
 \end{align}
 $$
+
 Estirar un conductor implica que su volumen se conserva, por tanto:
 
 $$
@@ -38,6 +34,7 @@ R_2  & = \rho \frac{L_2}{A_2} = \rho \frac{4 L_1}{\frac{A_1}{4}} = 16 \left( \rh
 R_2 & = 16 \times R_1 \approx 16 \times 1.369 \times 10^{-3} \ \Omega \approx 21.9 \times 10^{-3} \ \Omega \text{ (o } 21.9 \text{ m}\Omega \text{)}
 \end{align}
 $$
+
 ### Ejercicio 2
 
 Dos conductores cilíndricos están conectados como muestra la figura. El azul tiene diámetro $d_1 = 1$ mm, largo $L_1 = 100$ cm y conductividad $\sigma_1 = 2 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$. El rojo tiene diámetro $d_2 = 2$ mm, largo $L_2 = 200$ cm y conductividad $\sigma_2 = 1 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$. La corriente circula en la dirección del eje de los cilindros y el voltaje entre los extremos del conductor azul es $V_1 = 0.1$ V. Calcular el voltaje $V_2$ entre los extremos del conductor rojo.
@@ -51,12 +48,14 @@ Dos conductores cilíndricos están conectados como muestra la figura. El azul t
 
 ### Resolucion
 La corriente $I$ es la misma en ambos conductores dado que están conectados en serie.
+
 $$
  \begin{align}
  \rho_{1}  & = \frac{1}{\sigma_{1}} = \frac{1 }{2 \times 10^{-8}} \Omega m \\
   \rho_{2}  & = \frac{1}{\sigma_{2}} = \frac{1 }{1 \times 10^{-8}} \Omega m
  \end{align}
 $$
+
 $$
 \begin{align}
 V_{1}   & = L_{1}  \frac{\rho_{1} I}{A_{1}} \\
@@ -64,8 +63,11 @@ I  & =  \frac{V_{1}A_{1}}{L_{1}\rho_{1}} \\
 V_{2}   & = L_{2}  \frac{\rho_{2} I}{A_{2}} =   L_{2}\frac{\rho_{2} ( \frac{V_{1}A_{1}}{L_{1}\rho_{1}})}{A_{2}} \\
 \end{align}
 $$
+
 O, simplificando los cáculos:
+
 $$I = \frac{V_1}{R_1} = \frac{V_2}{R_2} \implies V_2 = V_1 \frac{R_2}{R_1}$$
+
 Calculando las resistencias de cada tramo por separado usando la fórmula $R = \rho \frac{L}{A} = \frac{1}{\sigma} \frac{L}{\pi (d/2)^2}$:
 
 **Resistencia del cilindro 1 (Azul):**
@@ -78,6 +80,7 @@ $$R_2 = \frac{1}{1 \times 10^{-8}} \times \frac{2}{\pi \times (1 \times 10^{-3})
 Dado que $R_1 = R_2$, la relación de los voltajes resulta en:
 
 $$V_2 = 0.1 \text{ V} \times \frac{R_2}{R_1} = 0.1 \text{ V} \times 1$$
+
 ### Ejercicio 3
 
 Los bloques conductores de la figura tienen dimensiones $a = 10$ mm, $b = 20$ mm, $c = 30$ mm, $h = 50$ mm. El bloque azul tiene conductividad $\sigma_1 = 2 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$ y el rojo $\sigma_2 = 1 \times 10^{-8} \Omega^{-1} \text{m}^{-1}$. Toda la base del conjunto se encuentra a un potencial $V_1 = 10$ V y la tapa superior a $V_2 = 20$ V. Calcular la corriente que circula por todo el conjunto.
@@ -92,13 +95,16 @@ Los bloques conductores de la figura tienen dimensiones $a = 10$ mm, $b = 20$ mm
 Dado que "toda la base del conjunto" se encuentra a $V_1 =$ 10 V y "la tapa superior" a $V_2 =$ 20 V, la diferencia de potencial se aplica a lo largo del eje vertical (la altura $h$). El flujo de corriente va desde la superficie de mayor potencial (20 V) hacia la de menor potencial (10 V). Esto significa que la corriente viaja perpendicular a las tapas, de arriba hacia abajo.
 
 La corriente que circula por un bloque no necesariamente es la misma que circula por el otro. Por tanto, analizamos la corriente por cada bloque. Para el bloque azul, tenemos:
+
 $$
 \begin{align}
 I_{\text{azul}}  & =  \frac{VA_{1}}{L\rho_{1}} = \frac{{10V \times 0.01m \times 0.03m}}{0.05m \times  \frac{1}{2 \times 10^{-8} \Omega\text{m}}} \\
 I_{\text{rojo}}  & =  \frac{VA_{2}}{L\rho_{2}} = \frac{{10V \times 0.02m \times 0.03m}}{0.05m \times  \frac{1}{1 \times 10^{-8} \Omega\text{m}}} \\
 \end{align}
 $$
+
 Por tanto, $I_{\text{total}} = I_{\text{azul}} + I_{\text{rojo}}$. 
+
 $$I_{\text{total}} = 1.2 \times 10^{-9}\text{ A} + 1.2 \times 10^{-9}\text{ A} = 2.4 \times 10^{-9}\text{ A}$$
 
 ### Ejercicio 4
@@ -150,15 +156,24 @@ Para el circuito 1 (el de la izquierda), empezamos reduciendo partes del circuit
 Luego, tenemos que $R_{eq_{1}}$ está en paralelo con $R_{1B}$, asi que reducimos: 
 $$R_{eq2} = \frac{28 \times 10}{28 + 10} = \frac{280}{38} \approx 7.37$$
 Por último, tenemos en serie $R_{eq_{2}}$ con $R_{A_{1}}$. Por tanto:
+
 $$R_{eq} = 7.37 + 5 = 12.37$$
+
 #### Circuito 2
 $R_{\text{centro inf}}$ está en paralelo con $R_{\text{centro sup}}$, reducimos:
+
 $$R_{\text{eq1}} = \frac{50 \times 10}{50 + 10} = \frac{500}{60} = \frac{25}{3} \approx 8.33 \ \Omega$$
+
 Luego, $R_{eq_{1}}$ está en serie con $R_{\text{top izq}}$, reducimos con suma:
+
 $$R_{\text{eq2}} = \frac{25}{3} + 20 = \frac{85}{3} \approx 28.33 \ \Omega$$
+
 Luego, $R_{eq_{2}}$ esta en paralelo con $R_{inf}$, reducimos:
+
 $$R_{\text{eq3}} = \frac{\frac{85}{3} \times 12}{\frac{85}{3} + 12} = \frac{340}{\frac{121}{3}} = \frac{1020}{121} \approx 8.43 \ \Omega$$
+
 Finalmente, $R_{eq_{3}}$ se encuentra en serie con $R_{in}$ y $R_{out}$, reducimos:
+
 $$R_{\text{eq}} = \frac{1020}{121} + 10 + 20 = 30 + 8.43 = 38.43 \ \Omega$$
 
 ### Ejercicio 5
@@ -188,28 +203,43 @@ Hallar las corrientes en todas las ramas del circuito de la figura.
 Calcularemos la resistencia equivalente total, aplicando la Ley de Ohm para encontrar la corriente principal, y luego ir "desarmando" la topología hacia atrás utilizando la Ley de Ohm en cada nodo para hallar las corrientes de cada rama individual.
 #### Primer paso: Reducción
 Empezamos reduciendo $R_{\text{top der}}$ y $R_{\text{der ver}}$, las cuales se encuentran en serie:
+
 $$
 R_{eq_{1}} = 10 \Omega + 20 \Omega = 30 \Omega
 $$
+
 Luego, reducimos $R_{eq_{1}}, R_{\text{diagonal}}$ y $R_{\text{centro vert}}$, las cuales se encuentran en paralelo:
+
 $$
 R_{eq_{2}} = \frac{1}{\frac{1}{R_{eq_{1}}} + \frac{1}{R_{\text{diagonal}}} + \frac{1}{R_{\text{centro vert}}}}
 $$
+
 $$R_{eq_{2}} = \frac{1}{\frac{1}{30} + \frac{1}{10} + \frac{1}{20}} = \frac{1}{\frac{2 + 6 + 3}{60}} = \frac{1}{\frac{11}{60}} = \frac{60}{11}\ \Omega \approx 5.45\ \Omega$$
+
 Finalmente, tenemos que $R_{\text{top izq}}, R_{\text{inf izq}}$ y $R_{eq_{2}}$ se encuentran en serie, las reducimos:
+
 $$
 R_{eq} = 5 \Omega + R_{eq_{2}} + 10 \Omega
 $$
+
 $$R_{eq} = 5\ \Omega + \frac{60}{11}\ \Omega + 10\ \Omega = \frac{225}{11}\ \Omega \approx 20.45\ \Omega$$
+
 Por tanto:
+
 $$
 I = \frac{V}{R} 
 $$
+
 $$I_{\text{total}} = \frac{10\text{V}}{\frac{225}{11}\ \Omega} = \frac{110}{225}\text{A} = \frac{22}{45}\text{A} \approx 0.489\text{A}$$
+
 #### 2do Paso: Desarmando
+
 La corriente total se la misma para el circuito en serie  $R_{\text{top izq}}, R_{\text{inf izq}}$ y $R_{eq_{2}}$.  Esto hace sentido, la corriente que sale desde la pila es la misma que termina regresando, la carga total se conserva.
+
 $$I_{\text{top izq}} = I_{\text{inf izq}} = \frac{22}{45}\text{A}$$
+
 Sin embargo, el potencial se distribuye de forma distinta:
+
 $$
 \begin{align}
 V_{\text{total}}  & =  V_{\text{top izq}} + V_{\text{eq2}} + V_{\text{inf izq}} \\ \\
@@ -217,24 +247,32 @@ V_{\text{eq2}}  & = V_{total} - V_{\text{top izq}} - V_{\text{inf izq}}  \\
  & = 10V - I_{\text{total}}\times 15 \Omega
 \end{align}
 $$
+
 Podemos calcular $V_{eq_{2}}$ directamente:
+
 $$V_{eq_{2}} = I_{\text{total}} \times R_{eq_{2}} = \left(\frac{22}{45}\text{A}\right) \times \left(\frac{60}{11}\ \Omega\right) = \frac{1320}{495}\text{V} = \frac{8}{3}\text{V} \approx 2.667\text{V}$$
+
 Entonces tenemos que para $R_{eq_{2}}$, la corriente que circula es $I_{\text{total}}$ y el voltaje es $V_{eq_{2}}$. La corriente se distribuye en los tres ramales paralelos que reduce $R_{eq_{2}}$ : $R_{eq_{1}}, R_{\text{diagonal}}$ y $R_{\text{centro vert}}$, mientras que el diferencial de potencial $V_{eq_{2}}$ se mantiene. Por tanto:
+
 $$
 \begin{align}
 I_{\text{total}}  & = I_{eq_{1}} + I_{\text{diagonal}} + I_{\text{centro vert}} \\
  & = \frac{V_{eq_{2}}}{R_{eq_{1}}} + \frac{V_{eq_{2}}}{R_{\text{diagonal}}} + \frac{V_{eq_{2}}}{R_\text{centro vert}}
 \end{align}
 $$
+
 Con esta tensión, se calcula la corriente por cada una de las tres ramas del paralelo utilizando la Ley de Ohm ($I = \frac{V}{R}$):
 **1. Rama central vertical:**
 
 $$I_{\text{centro vert}} = \frac{V_{eq_{2}}}{R_{\text{centro vert}}} = \frac{\frac{8}{3}\text{V}}{20\ \Omega} = \frac{8}{60}\text{A} = \frac{2}{15}\text{A} \approx 0.133\text{A}$$
+
 **2. Rama diagonal:**
 
 $$I_{\text{diagonal}} = \frac{V_{eq_{2}}}{R_{\text{diagonal}}} = \frac{\frac{8}{3}\text{V}}{10\ \Omega} = \frac{8}{30}\text{A} = \frac{4}{15}\text{A} \approx 0.267\text{A}$$
 Finalmente, la corriente que circula por las resistencias en serie $R_{\text{top der}}, R_{\text{der ver}}$ es la misma que $I_{eq_{1}}$.
+
 $$I_{\text{top der}} = I_{\text{der vert}} = \frac{V_{eq_{2}}}{R_{eq_{1}}} = \frac{\frac{8}{3}\text{V}}{30\ \Omega} = \frac{8}{90}\text{A} = \frac{4}{45}\text{A} \approx 0.089\text{A}$$
+
 ### Ejercicio 6
 
 Para el siguiente circuito, calcular: 
@@ -265,11 +303,13 @@ Para el siguiente circuito, calcular:
 ### Resolucion
 #### a)
 Las resistencias de $6 \Omega$ se encuentran en serie (cuando la llave L se mantiene abierta), entonces la resistencia equivalente del circuito resulta: $R_{eq} = 12 \Omega$ y dado que el voltaje entregado por la batería son $12V$, calculamos:
+
 $$
 \begin{align}
 P & = \frac{V^2}{R} = 12W
 \end{align}
 $$
+
 #### b)
 Dada que la resistencia del aire se puede asumir como infinita, siguiendo la ley de ohm ($V = IR$), nos damos cuenta que la caída de potencial en esta resistencia es nula mientras la llave esté abierta. Lo mismo sucede con la potencia disipada, dado que no fluye corriente y ni existe caída de potencial sobre la resistencia ($P = V \times I$).
 #### c)
@@ -277,17 +317,21 @@ Cuando L se cierra, buscamos la nueva resistencia equivalente:
 - $6 \Omega$ y $3 \Omega$ en paralelo: $R_{eq_{1}} = \frac{{6\Omega \times 3 \Omega}}{9 \Omega} = 2 \Omega$
 - $R_{eq_{1}}$ y  $6 \Omega$ en serie: $R_{eq} = R_{eq_{1}} + 6 \Omega = 2\Omega$. 
 La potencia nueva entregada es:
+
 $$
 P = \frac{{12V}^2}{2 \Omega}= 18 W
 $$
+
 #### d)
  2 días de funcionamiento equivalen:
- $$
+$$
  \begin{align}
  2 \text{dias} \times \frac{24 \text{horas}}{1 \text{dia}} = 48 \text{horas}
  \end{align}
- $$
+$$
+
 Multiplicamos ambas expresiones encontradas de potencia por la duración encontrada:
+
 $$P_{L_{\text{abierta}}} (\text{en kW}) = \frac{12\text{ W}}{1000} = 0.012\text{ kW}$$
 
 $$Consumo_{L_{\text{abierta}}} = 0.012\text{ kW} \times 48\text{ h} = 0.576\text{ kWh}$$
@@ -295,6 +339,7 @@ $$Consumo_{L_{\text{abierta}}} = 0.012\text{ kW} \times 48\text{ h} = 0.576\text
 $$P_{L_{\text{cerrada}}} (\text{en kW}) = \frac{18\text{ W}}{1000} = 0.018\text{ kW}$$
 
 $$Consumo_{L_{\text{cerrada}}} = 0.018\text{ kW} \times 48\text{ h} = 0.864\text{ kWh}$$
+
 ### Ejercicio 7
 
 Para el circuito de la figura, calcular las diferencias de potencial de los puntos A, B y C respecto a la referencia tierra cuando la llave L está abierta y cuando L está cerrada. Todas las resistencias son de 10 $\Omega$ y las baterías de 10 V.
@@ -324,16 +369,21 @@ Para el circuito de la figura, calcular las diferencias de potencial de los punt
 ### Resolucion
 #### Llave abierta
 Empezando con la llave L abierta, tenemos a la parte derecha del circuito desconectado, y por ende no afecta a nuestros calculamos. Asumimos tierra con $V=0$. En esta configuracion, aplicamos ley de Kirchhoff al nodo 1:
+
 $$
 \begin{align}
 I_{A} + I_{B} + I_{C}  & = 0  \tag{1}\\
 \end{align}
 $$
+
 Ademas, se puede apreciar que el voltaje del nodo 1 es el mismo en los puntos A, B y C dado que comparten el mismo conductor sin intereferencias de resistencias o pilas que generen algún diferencial, de manera que $V_{A} = V_{B}= V_{C} = V_{1}$. Por tanto, podemos calcular las corrientes de cada rama usando la ley de ohm generalizada ([Ley de Ohm Generalizada](../notas/Ley%20de%20Ohm%20Generalizada.md)).
+
 $$
 I = \frac{V_{\text{nodo}} - V_{\text{fuente}}}{R} \tag{2}
 $$
- Juntamos (1) y (2):
+
+Juntamos (1) y (2):
+
 $$
 \begin{align}
 \frac{V_{1}}{10 \Omega} + \frac{V_{1}-10V}{10 \Omega} + \frac{V_{1} - 10V}{10 \Omega}  & = 0 \\
@@ -341,12 +391,15 @@ $$
 V_{1}  & = \frac{20}{3}V
 \end{align}
 $$
+
 Dado que el potencial de referencia final que estamos usando ($V_{\text{tierra}} =0$) es nulo, el diferencial de potencial $\Delta V$ en las tres ramas resulta $V_{1}-0 =\frac{20}{3}V$.
 #### Llave cerrada 
 El diferencial de potencial en las ramas exploradas en el inciso anterior no se ven afectadas dado que el análisis sobre el Nodo 1 es idéntico. Sin embargo, ahora tenemos una nueva rama. Analizando el diferencial de potencial en esta rama, vemos que el punto de referencia es la tierra ($V=0$). Por tanto, la ley de ohm nos indica que:
+
 $$
 I_{D} = \frac{V_{fuente}}{R} = \frac{10V}{10 \Omega} = 1A
 $$
+
 Por tanto, el diferencial de potencial en esta rama adicional es el que provoca la pila: $10V$.
 ### Ejercicio 8
 La figura representa un trozo de circuito en el que se conocen las corrientes $I_1$ e $I_2$ y la diferencia de potencial entre los puntos B y C ($I_1 = 4$ A; $I_2 = 2$ A; $V_B - V_C = 12$ V). Sabiendo que $R = 10\ \Omega$ determinar: 
@@ -377,6 +430,7 @@ La figura representa un trozo de circuito en el que se conocen las corrientes $I
 ### Resolucion
 #### a)
 Analizemos el nodo B, planteando KCL, tomando la convención de la corriente que entra a un nodo es negativa, y la que sale positiva:
+
 $$
 \begin{align}
 \sum_{B} I &  = 0 \\
@@ -384,39 +438,53 @@ $$
 I_{y}  & = 4A - 2A = 2A
 \end{align}
 $$
+
 Por tanto, $I_{y}$ es igual a 2A y circula en el mismo sentido que $I_{2}$ (sale del nodo).
 #### b)
 Aplicamos ley de ohm para obtener la resistencia $R_{y}$:
+
 $$
 R_{y}= \frac{V_{B-C}}{I_{y}} = \frac{12V}{2A} = 6\Omega
 $$
+
 Para encontrar la resistencia $R_{x}$, aplicamos la ley de ohm generalizada (teniendo en cuenta el diferencial de potencial que provoca la fuente):
+
 $$
 R_{x} = \frac{(V_{B}-V_{\text{fuente}}) - V_{C}}{I_{2}} = \frac{V_{B-C} - V_{\text{fuente}}}{I_{2}} = \frac{12V-10V}{2A} =1\Omega 
 $$
 #### c)
 El diferencial de potencial entre el punto A y D, se puede calcular como:
+
 $$
 \Delta V_{A-D} = \Delta V_{A-B} + \Delta V_{B-C} + \Delta V_{C-D}
 $$
+
 Tenemos que:
+
 $$
 \Delta V_{A-B} = I_{1}R = 4A \times 10 \Omega = 40 V
 $$
+
 y dado que en el trozo de circuito C-D solo contamos con una pila con su borne postivo primero, tenemos que el diferencial de potencial en este tramo resulta:
+
 $$
 \Delta V_{C-D} = 15V
 $$
+
 Por tanto:
+
 $$
 \Delta V_{A-D} = 40V + 12V + 15V = 67V
 $$
+
 Esto quiere decir, asumiendo una fuente de energía ideal (sin resistencia interna), la fuerza electromotriz $\varepsilon$ necesaria para empujar la misma corriente (4A) a través del circuito A-D es $67V$.
 #### d)
 La potencia otorgada al circuito resulta:
+
 $$
 P = V_{A-D} \times I_\text{generado} = 67V \times 4A = 268 W
 $$
+
 ### Ejercicio 9
 
 En el circuito de la figura los dos amperímetros marcan 1.70 A y la potencia entregada por la fuente es de 300 W. Determinar $R_1$, $R_2$ y la tensión de la fuente.
@@ -446,6 +514,7 @@ En el circuito de la figura los dos amperímetros marcan 1.70 A y la potencia en
 ### Resolucion
 #### Encontrando la tensión
 Nos damos cuenta que en el nodo 1 circula la corriente total ofrecida por la batería. Aplicando KCL en el nodo 1:
+
 $$
 \begin{align}
 \sum_{1} I  & = 0 \\ 
@@ -453,19 +522,25 @@ $$
 I_{\text{total}}  & = I_{izq} + I_{\text{sup der}}
 \end{align}
 $$
+
 Dado que ambos amperímetros (el de la izquierda y el superior derecho) dan 1.70 A, entonces:
+
 $$
 I_{total} = 2\times1.70 A
 $$
+
 Y por tanto, la tensión total que ofrece la fuente es:
+
 $$
 \begin{align}
 P_{\text{total}} &  = I_{\text{total}} \times V_{\text{total}} \\
 V_{\text{total}} &  = \frac{P_{\text{total}}}{I_{\text{total}}}= \frac{300W}{2\times 1.70A} = \frac{1500}{17}V
 \end{align}
 $$
+
 #### Encontrando R1
 Aplicamos KVL a la malla 1 (izquierda):
+
 $$
 \begin{align}
 V_{\text{total}} - 28 \Omega \times 1.70A  - R_{1} \times 1.70 A  & = 0 \\
@@ -473,20 +548,25 @@ R_{1}  & = \frac{{V_{\text{total}} - 28 \Omega \times 1.70A}}{1.70A} \\
 R_{1}  & = \frac{6908}{289} \Omega
 \end{align}
 $$
+
 #### Encontrando R2
 Todo el bloque derecho (resistencias $95 \Omega, R_{2}, 154,3 \Omega$ se encuentran en paralelo, conectadas superiormente en el nodo 1 al borne positivo de la fuente y conectadas inferiormente al nodo 0 (borne negativo de la fuente). Dado que se encuentran en paralelo, podemos definir la resistencia equivalente de todo el bloque como:
+
 $$
 \begin{align}
 \frac{1}{R_{\text{eq der}}} = \frac{1}{95 \Omega} + \frac{1}{R_{2}} + \frac{1}{154,3 \Omega}
 \end{align}
 $$
+
 Finalmente, definimos:
+
 $$
 \begin{align}
 V_{\text{der}}  & = V_{\text{total}} = I_{\text{sup der}}\times R_{\text{eq der}} \\
 R_{\text{eq der}}  & = \frac{V_{\text{total}}}{I_{\text{sup der}}} \implies R_{2} = 442,58 \Omega
 \end{align}
 $$
+
 ### Ejercicio 10
 ¿Cuál es la diferencia de potencial entre los puntos P y Q?
 ![Pasted image 20260605224549](../assets/Pasted%20image%2020260605224549.png)
@@ -525,34 +605,43 @@ $$
 ### Resolucion
 #### Encontrando potencial en P
 Averiguamos la corriente total del circuito con:
+
 $$
 \begin{align}
 I_{\text{total P}} =  \frac{6 V}{3 \Omega} = 2A
 \end{align}
 $$
+
 Ahora calculamos la caída de potencial en la resistencia $1 \Omega$:
+
 $$
 \begin{align} 
 \Delta V_{R_{sup}} = I_{\text{total P}} \times 1 \Omega = 2V
 \end{align}
 $$
+
 Por tanto, en el punto P nos encontramos a $6V -2V=4V$
 #### Encontrando potencial en Q 
 Averiguamos la corriente total del circuito con:
+
 $$
 \begin{align}
 I_{\text{total D}} =  \frac{6 V}{6 \Omega} = 1A
 \end{align}
 $$
+
 Ahora calculamos la caída de potencial en la resistencia $2 \Omega$:
+
 $$
 \begin{align} 
 \Delta V_{R_{sup}} = I_{\text{total P}} \times 2 \Omega = 2V
 \end{align}
 $$
+
 Por tanto, en el punto Q nos encontramos a $6V -2V=4V$
 
 Esto quiere decir que la diferencia entre el potencial de P con respecto a Q es 0.
+
 ### Ejercicio 11
 
 Para la porción del circuito que se ilustra calcule las corrientes en las ramas AB, AC y CB y las diferencias de potencial entre estos puntos. Indique por qué no puede realizarse en este caso un balance de potencias.
@@ -585,24 +674,31 @@ Para la porción del circuito que se ilustra calcule las corrientes en las ramas
 _Nota: "Ext" representa las conexiones externas o del resto del circuito no dibujado por donde entran y salen las corrientes especificadas._
 ### Resolucion
 Para el nodo A, tenemos que KCL dice:
+
 $$
 - 2A + I_{{AB}} + I_{{AC}}=0 \tag{1}
 $$
+
 Aplicamos ley de ohm generalizada para las ramas AB y AC:
+
 $$
 \begin{align}
 I_{AB} = \frac{V_{A} - 10V - V_{B}}{1 \Omega} \tag{2} \\
 I_{AC} = \frac{V_{A} + 20V - 0}{3 \Omega} \tag{3}
 \end{align}
 $$
+
 Para el nodo B, tenemos que KCL dice:
+
 $$
 \begin{align}
 - I_{AB} +1A + I_{BC} &  =0 \\
 I_{BC}  & = I_{AB} - 1 \tag{4}
 \end{align}
 $$
+
 Aplicamos ley de ohm generalizada para las ramas BC:
+
 $$
 \begin{align}
 I_{BC} = \frac{V_{B} - 0}{5 \Omega} \tag{5} \\
@@ -610,6 +706,7 @@ I_{BC} = \frac{V_{B} - 0}{5 \Omega} \tag{5} \\
 $$
 
 Usamos estas ecuaciones y despejamos, empezamos con (5), (4) y (2):
+
 $$
 \begin{align}
 \frac{V_{B}}{5\Omega} &  =  \frac{V_{A}-10V -V_{B}}{1 \Omega} - 1A \\
@@ -621,7 +718,9 @@ $$
 El despeje de (5), (4) y (2) se puede reducir así:
 
 $$\begin{align} \frac{V_{B}}{5} & = V_{A} - 10 - V_{B} - 1 \\ \frac{V_{B}}{5} + V_{B} & = V_{A} - 11 \\ \frac{6V_{B}}{5} & = V_{A} - 11 \\ V_{B} & = \frac{5}{6}(V_{A} - 11) \end{align}$$
+
 Usando (1), (2), (3), tenemos:
+
 $$
 \begin{align}
 \frac{V_{A} + 20V}{3 \Omega}  & = - \frac{V_{A} - 10V - V_{B}}{1 \Omega} + 2A \\
@@ -646,6 +745,7 @@ Con $V_A$ despejado, los resultados finales que debes obtener al reemplazar haci
 Para que la sumatoria de potencias entregadas y disipadas sea exactamente igual a cero (conservación de la energía), el circuito debe estar completamente cerrado y aislado.
 
 En este esquema, tienes $2\text{ A}$ inyectándose en el Nodo A y $1\text{ A}$ extrayéndose en el Nodo B provenientes de un resto del circuito que es invisible o "caja negra". Como no conoces qué componentes externos están generando o consumiendo esa energía exterior, ni a qué potencial absoluto se encuentran las fuentes externas que empujan esos amperios, es físicamente imposible contabilizar el balance total de energía del sistema. Solo puedes calcular el comportamiento local de esta porción específica.
+
 ### Ejercicio 12
 
 Entre los puntos A y B del circuito de la figura se conecta un amperímetro de resistencia R. Hallar la corriente medida en función de V, $R_1$, $R_2$, $R_3$ y $R_4$, y determinar para qué valores de estos parámetros la corriente se anula. Nota: Este es el circuito conocido como "Puente de Wheatstone" que se usa para comparar resistencias desconocidas con resistencias patrón.
