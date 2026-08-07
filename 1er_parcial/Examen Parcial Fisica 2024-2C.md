@@ -96,22 +96,22 @@ $$
 
 #### Punto C
 
-Dado que $\sum F_{\text{ext}_{x}} = 0$ desde el estado A hasta el estado D , la velocidad del centro de masa $V_{CM}$ es constante, y considerando que el sistema parte del reposo:
+Dado que $\sum F_{\text{ext}_{x}} = 0$ desde el estado A hasta el estado D, la velocidad del centro de masa $V_{CM}$ es constante, y considerando que el sistema parte del reposo:
 
 $$
 \begin{align}
-\vec{p_{A}} &  = 0 \implies v_{CM_{A}} =0
+\vec{p_{A}} &  = 0 \implies v_{CM_{A}} = 0 \\
 \end{align}
 $$
 
-Por tanto, $\vec{v_{CM}}(t) =0 \hat{i} + 0 \hat{j}$ para todo t. Esto significa que la posición $\vec{r_{CM}}$ del centro de masa es constante. Asumiendo todas las partículas pertenecientes del sistema en una altura 0, nos dedicamos a calcular el $x_{CM}$ inicial:
+Por tanto, $\vec{v_{CM}}(t) = 0 \hat{i} + 0 \hat{j}$ para todo t. Esto significa que la posición $\vec{r_{CM}}$ del centro de masa es constante. Asumiendo todas las partículas pertenecientes del sistema en una altura 0, nos dedicamos a calcular el $x_{CM}$ inicial:
 
 $$
 \begin{align}
 x_{CM_{A}} & = \frac{{m_{1}x_{1A} + m_{2}x_{2A} + m_3x_{3A}}}{m_{1} + m_{2} + m_{3}} \\
 & = \frac{{m_{1}\left( \frac{l_{0}}{2} \right) + (2m_{1})(0) + (4m_{1})\left( \frac{l_{0}}{2} + 2l_{0} \right)}}{m_{1} + 2m_{1} + 4m_{1} } \\
 & = \frac{{m_{1}\left( \frac{l_{0}}{2} \right)  + (4m_{1})\left( \frac{l_{0}}{2} + 2l_{0} \right)}}{7m_{1}} = \frac{{\frac{21}{2}l_{0}m_{1}}}{7 m_{1}} \\
- & = \frac{3}{2} l_{0}
+ & = \frac{3}{2} l_{0} 
 \end{align}
 $$
 
@@ -124,6 +124,7 @@ r_{CM}(t)  & = \frac{3}{2}l_{0} \hat{i} + 0 \hat{j} \quad\forall t
 $$
 
 #### Punto D
+
 La energía mecánica se conserva desde A hasta C, por tanto para este intervalo:
 
 $$
