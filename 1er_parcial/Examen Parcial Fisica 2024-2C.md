@@ -170,12 +170,10 @@ $$
 Por tanto:
 
 $$
-\begin{align}
 E_{t}  & = \begin{cases}
 \frac{3}{4}m_{1}l_{0}g & \text{si} \quad t_{A}<t <t_{C} \\
 \frac{7}{20}m_{1}l_{0}g & \text{si} \quad t\geq t_{C}
 \end{cases}
-\end{align}
 $$
 
 ## Problema 2: Electrostática - Cargas Puntuales
