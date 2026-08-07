@@ -1,14 +1,41 @@
-# Physics for Software Engineers
+# Física Para Informática
 
 Notas de estudio personales sobre física universitaria (Electrostática, circuitos de CC/CA, Magnetostática, Inductancia y práctica de parciales del libro _Física Universitaria_ de Sears & Zemansky).
 
 ## Experiencia personal
 
-La materia es muy jodida, sobre todo por la cantidad de horas de estudio que demanda. Requiere un entendimiento conceptual considerable (no es mecánica) de los temas, así que creo que una gran clave es darle suficiente tiempo a entender conceptos abstractos como "conservación de la energía" para la primera parte o "campo eléctrico/magnético" para la segunda parte.
+<details>
+<summary> ¿Es jodida la materia? </summary>
+
+Fue una de las materias más jodidas que he cursado, sobre todo por la cantidad de horas de estudio que demanda. Requiere un entendimiento conceptual de los temas considerable. No es una materia "mecánica" como modelación numérica. Así una gran clave para encarar esta materia es darle suficiente tiempo a entender conceptos abstractos como conservación de la energía o campo/flujo eléctrico/magnético.
+</details>
+
+
+<details>
+<summary> Para la primera parte, ¿qué se pide? ¿es necesario saber integrar? </summary>
 
 Para los ejercicios de sistemas de partículas se enfocan mucho en que uses leyes de conservación de energía o conservación del momento para despejar variables. No me llegó a tocar un examen en el que haya tenido que despejar algo usando leyes de Newton, aunque siempre es un camino válido (aunque mucho más largo). Tampoco me crucé con problemas de movimientos circulares o velocidades angulares (como algún problema con un péndulo o algo así). Un excelente primer paso sería ir familiarizándose con estas bases: Ley de Conservación de la Energía Mecánica y Ley de Conservación del Momento. Entender ambos temas requiere repasar operaciones vectoriales, sistemas de referencia y leyes de Newton.
 
-Los materiales de la cátedra que están buenos son las guías para practicar y unas clases de Física 2 de la época del Covid que sirven para la segunda parte de la materia. Ir a clases presenciales no lo recomiendo, pero es cierto que el tradeoff de no ir es que a veces te pierdes de cualquier consejo que te puede tirar un profe del tipo: "en el parcial no entrará x tema". Yo estudié directamente con el libro [Sears Física Universitaria](sears_13.pdf) y haciéndole preguntas a Gemini :D
+De integrales y derivadas, solo es necesario saber lo básico. Desarrollándo algunas de las guías, tal vez te cruces con una integral de la muerte, pero generalmente estos ejercicios son de "demostración", o el típico ejercicio que haces una sola vez para entender cómo se deriva x fórmula.
+
+</details>
+
+
+<details>
+<summary> ¿Qué material puedo usar para estudiar? </summary>
+
+Los materiales de la cátedra que están buenos son las guías para practicar (en el 1er parcial me tocó un ejercicio que era copy-paste de la guía) y unas [clases ](https://youtube.com/playlist?list=PLZ9Lairv2wUdJtwf6ObwdLdaB5cZ7O1Zw&si=-J_pnNjEV4rYrvwt) de Física 2 de la época del Covid que sirven para la segunda parte de la materia. En este [repo](https://github.com/anagutson/Fisica-II/tree/main) están todas las guías de Física 2 resueltas, solo hay que hacer un poquito de trabajo de mapeo con las guías de esta materia para dar con ejercicios resueltos. 
+
+Para la teoría, yo estudié directamente con el libro [Sears Física Universitaria](sears_13.pdf) y haciéndole preguntas a Gemini (el modelo más inteligente que tenían en el momento y respondía bastante coherentemente).
+
+</details>
+
+
+<details>
+<summary> ¿Vale la pena ir a clases presenciales? </summary>
+No recomiendo, van demasiado rápido y hay una alta chance de terminar desalentado. Pero es cierto que el tradeoff de no ir es que a veces te pierdes de cualquier consejo que te puede tirar un profe del tipo: "en el parcial no entrará x tema". Yo fui a una clase en todo el cuatri y sobreviví igual.
+
+</details>
 
 ## Notas de teoría
 
