@@ -517,6 +517,7 @@ Dividamos nuestro analisis por secciones:
 - $0<r<r_{A}$: considerando la cavidad interna ($r<r_{A}$), usando una superficie gaussiana $0<r< r_{a}$, la carga encerrada es nula, y la ley de Gauss dicta entonces que el campo eléctrico debe ser nulo.
 - $r_{A} < r < r_{B}$: Sabemos que en el volumen interno del conductor, el campo eléctrico $\vec{E} =0$. Dado que si no fuera así, las cargas se moverían. Por tanto, para $r_{A}< r < r_{B}$, $\vec{E}=0$. 
 - $r>r_{B}$: Acá aprovechamos la simetría que ofrece una superficie esférica gaussiana con radio r concéntrica a la esfera original, en donde el campo eléctrico mantendrá una dirección perpendicular a esta misma en todos los puntos. Por tanto la ley de Gauss dicta que $EA = \frac{Q}{\epsilon_{0}} \implies E = \frac{\sigma4\pi r_{B}^2}{\epsilon_{0}4\pi r^2} = \frac{\sigma r_{B}^2}{\epsilon_{0}r^2}a= \frac{Q}{4\pi \epsilon_{0}r^2}$.
+
 Finalmente, entonces tenemos que:
 
 $$
@@ -527,7 +528,9 @@ $$
 $$
 
 #### Punto C
+
 Para hallar el potencial, dividimos por secciones:
+
 Cuando $r>r_{B}$, el campo eléctrico resultante es idéntico al de una carga puntual ubicada en el centro, usamos esto para calcular el potencial resultante directamente: 
 
 $$
