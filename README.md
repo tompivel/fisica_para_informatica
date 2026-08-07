@@ -12,12 +12,11 @@ Fue una de las materias más jodidas que he cursado, sobre todo por la cantidad 
 
 
 <details>
-<summary> Para la primera parte, ¿qué se pide? ¿es necesario saber integrar? </summary>
-
-Para los ejercicios de sistemas de partículas se enfocan mucho en que uses leyes de conservación de energía o conservación del momento para despejar variables. No me llegó a tocar un examen en el que haya tenido que despejar algo usando leyes de Newton, aunque siempre es un camino válido (aunque mucho más largo). Tampoco me crucé con problemas de movimientos circulares o velocidades angulares (como algún problema con un péndulo o algo así). Un excelente primer paso sería ir familiarizándose con estas bases: Ley de Conservación de la Energía Mecánica y Ley de Conservación del Momento. Entender ambos temas requiere repasar operaciones vectoriales, sistemas de referencia y leyes de Newton.
+<summary> ¿qué realmente se pide? ¿es necesario saber integrar? </summary>
 
 De integrales y derivadas, solo es necesario saber lo básico. Desarrollándo algunas de las guías, tal vez te cruces con una integral de la muerte, pero generalmente estos ejercicios son de "demostración", o el típico ejercicio que haces una sola vez para entender cómo se deriva x fórmula.
 
+Para los ejercicios de sistemas de partículas se enfocan mucho en que uses leyes de conservación de energía o conservación del momento para despejar variables. No me llegó a tocar un examen en el que haya tenido que despejar algo usando leyes de Newton, aunque siempre es un camino válido (aunque mucho más largo). Tampoco me crucé con problemas de movimientos circulares o velocidades angulares (como algún problema con un péndulo o algo así). Un excelente primer paso sería ir familiarizándose con estas bases: Ley de Conservación de la Energía Mecánica y Ley de Conservación del Momento. Entender ambos temas requiere repasar operaciones vectoriales, sistemas de referencia y leyes de Newton.
 </details>
 
 
