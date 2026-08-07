@@ -23,6 +23,7 @@ Una partícula puntual de masa $m_{1}$ parte del reposo desde el extremo superio
 ### Resolución
 #### Punto A
 Para este punto, tenemos que considerar que durante el trayecto de la masa $m_{1}$, la energía mecánica de $m_{1}$ se conserva, debibo a que no existen fuerzas no conservativas realizando trabajo sobre el sistema. Por tanto, podemos igualar la energía mecánica inicial $E_{A}$ con la energía $E_{B}$ en el punto  en el que la masa $m_{1}$ impacta a $m_{2}$. Si usamos el piso con $U=0$ como referencia para la energía potencial, tenemos:
+
 $$
 \begin{align}
 E_{A} &  = E_{B}  \\
@@ -38,6 +39,7 @@ v_{1} & = \sqrt{ 2gy_{1_{A}}} \\
 v_{1} & = \sqrt{ 2gH}
 \end{align}
 $$
+
 #### Punto B
 Justo antes del impacto (Estado B) y justo después (Estado C), se conserva el momento lineal del sistema $m_{1} + m_{2}$. Por tanto, igualamos ambos momentos y despejamos.
 $$
