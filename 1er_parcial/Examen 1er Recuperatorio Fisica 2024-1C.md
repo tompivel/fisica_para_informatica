@@ -1,11 +1,3 @@
----
-id: 20260524113323
-aliases: []
-tags:
-  - uncataloged
-created: 2026-05-24 11:33
-status: draft
----
 # Examen Modelo 2 Parcial Fisica 2024-1C
 ## Ejercicio 1
 
@@ -22,12 +14,18 @@ Una partícula puntual de masa $m$ parte del reposo desde el extremo superior de
 - **d)** ¿Cuánto vale la velocidad del Centro de Masa en el momento en que la partícula llega a la parte más baja del plano? (ayuda: no es nula) .
 
 ### Resolución
+
 #### Punto A
+
 Considerando al sistema como la masa $m$ y el plano inclinado, las fuerzas externas actuando sobre el sistema son el peso y la normal que el piso ejerce sobre el mismo. Ambas fuerzas externas actúan en la componente vertical. Por tanto, al no haber fuerza de rozamiento entre el piso y el plano, $\sum F_{\text{ext en X}} = 0 \implies \frac{dp_{x}}{dt}=0$ . Por tanto, el momento lineal se conserva en la componente paralela al suelo.
+
 #### Punto B
+
 No, no se conserva la energía mecánica del sistema debido a la fuerza de rozamiento entre la masa $m$ y el plano, generando energía interna que afecta la energía mecánica entre un estado y otro. 
 #### Punto C
-Sabemos que la masa realiza un recorrido relativo al plano $\Delta x_{m}=\frac{H}{\tan{\alpha}} = d$. Usando relaciones de velocidad relativa, tenemos que:
+Sabemos que la masa realiza un recorrido relativo al plano $\Delta x_{m}=\frac{H}{\tan{\alpha}} = d$. 
+Usando relaciones de velocidad relativa, tenemos que:
+
 $$
 \begin{align}
 \Delta x_{\frac{m}{\text{piso}}} &  = \Delta x_{\frac{m}{M}} + \Delta x_{\frac{M}{\text{piso}}}  \\
@@ -36,13 +34,16 @@ $$
 $$
 
 Por tanto, el recorrido absoluto de $\Delta x_{m} = d + \Delta x_{M}$. Siendo que para la componente en x (paralela al suelo), el momento lineal del sistema se conserva y el sistema parte del reposo, tenemos que entre el estado A (el sistema parte del reposo) y el estado B (la masa $m$ llega al final del plano):
+
 $$
 \begin{align}
 p_{A_{x}} &  = p_{B_{x}} \\
 p_{A_{x}} & = (m +M)v_{x_{CM}} = 0 \implies p_{B_{x}} =0
 \end{align}
 $$
+
 Si $\Delta v_{x_{CM}}=0$ durante todo el trayecto debido a que no hay fuerzas externas actuando sobre el sistema en esta componente y el sistema parte del reposo, entonces $\Delta x_{CM}=0$. Por tanto, podemos establecer:
+
 $$
 \begin{align}
 \Delta{x_{CM}} &  = \frac{{m \Delta x_{m}}  + M \Delta{x_{M}}}{m + M} \\
@@ -52,16 +53,20 @@ $$
 \Delta  x_{M}  & =\frac{{-md}}{m + M} \\
 \end{align}
 $$
+
 #### Punto D
 En el anterior punto obtuvimos que la velocidad del centro de masa en la componente paralela al suelo era 0. Sin embargo, la velocidad si varía en la componente perpendicular debido a la fuerza externa de la gravedad actuando sobre el sistema.
 Para el estado B del sistema, tenemos que:
+
 $$
 \begin{align}
 v_{y_{CM}} =  & \frac{{mv_{y_{m}} + Mv_{y_{M}}}}{m + M} \\
 v_{y_{CM}} =  & \frac{{mv_{y_{m}}}}{m + M}
 \end{align}
 $$
+
 Para calcular $v_{y_{m}}$, 
+
 ## Ejercicio 2
 
 Un cilindro muy largo de radio $R$ se encuentra cargado con una densidad superficial de carga $\sigma$, uniformemente distribuida.
@@ -72,6 +77,7 @@ Un cilindro muy largo de radio $R$ se encuentra cargado con una densidad superfi
 ### Resolución
 #### Punto A
 Construimos una superficie gaussiana S cilíndrica de radio r y largo l concéntrica con el cilindro descrito en el enunciado. Aprovechamos la simetría para simplicar el cálculo del campo con la ley de Gauss dado que $\vec{E} \cdot \vec{n} = E$ en todo diferencial de área de la superficie descrita. Además consideremos que $\sigma = \frac{Q}{A} = \frac{Q_{encl}}{2 \pi r l}$.
+
 $$
 \begin{align}
 \Phi_{E}  & = \iint_{S} \vec{E} \cdot d \vec{A}   = \iint_{S} E \hat{r} \cdot dA \hat{r}\\
@@ -81,22 +87,28 @@ E & = \frac{Q_{\text{encl}}}{\epsilon_{0}2 \pi rl}= \frac{\sigma 2 \pi Rl}{\epsi
 E & = \frac{\sigma R}{\epsilon_{0}r} \\
 \end{align}
 $$
+
 Por tanto, considerando que si $r<R$, entonces $Q_{\text{encl}}=0 \implies E = 0$:
+
 $$
 E(r) = \begin{cases}
  0  & \text{si} & r< R \\
  \frac{\sigma R}{\epsilon_{0}r} \hat{r} & \text{si} & r\geq R
 \end{cases}
 $$
+
 #### Punto B
 Acá se asume que sería con una fuerza externa en contra del campo. Entonces para llevar una carga puntual $q_{0}$ desde una distancia 2R (R del cilindro)  hasta una distancia 4R (3R del cilindro), usamos la relación de trabajo realizado por una fuerza externa y la energía potencial:
+
 $$
 \begin{align}
 W_{\text{ext }} &  = \Delta U = U_f-U_{i} = q_{0} \Delta V  \\
  & = q_{0}V_{f} - q_{0}V_{i} = q_{0}(V_{f} - V_{i}) \\
 \end{align}
 $$
+
 Teniendo en cuenta además que $\Delta V = V_{f}-V_{i} = -\int_{i}^f \vec{E} \cdot d \vec{l}$, calculamos:
+
 $$
 \begin{align}
 V_{fi}  & = - \int_{i}^f \vec{E} \cdot d \vec{l} = - \int_{i}^f E \hat{r} \cdot dr \hat{r} \\
@@ -107,13 +119,16 @@ V_{fi}  & = - \int_{i}^f \vec{E} \cdot d \vec{l} = - \int_{i}^f E \hat{r} \cdot 
 & = - \frac{\sigma R}{\epsilon_{0}} \ln 2
 \end{align}
 $$
+
 El diferencial de potencial es negativo, lo cual hace sentido dado que durante todo el trayecto, el campo eléctrico empuja a la carga. 
 Por tanto, el trabajo necesario de una fuerza externa para mover una carga puntual $q_{0}$ desde 2R hasta 4R es:
+
 $$
 \begin{align}
 W_{\text{ext}}  & = -q_{0} \frac{\sigma R}{\epsilon_{0}} \ln 2
 \end{align}
 $$
+
 ## Ejercicio 3
 
 Los capacitores de la figura se encuentran inicialmente descargados. Una vez alcanzado el equilibrio la pila $V_{p}=10\text{ V}$ ha transferido $400\text{ nC}$ de carga.
