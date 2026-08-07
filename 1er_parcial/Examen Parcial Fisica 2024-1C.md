@@ -42,6 +42,7 @@ $$
 
 #### Punto B
 Justo antes del impacto (Estado B) y justo después (Estado C), se conserva el momento lineal del sistema $m_{1} + m_{2}$. Por tanto, igualamos ambos momentos y despejamos.
+
 $$
 \begin{align}
 \vec{p}_{B} &  = \vec{p}_{C} \\
@@ -50,7 +51,9 @@ v_{2_{C}}  & = \frac{m_{1}}{m_{2}}v_{1_{B}} \\
 v_{2_{C}}  & = \frac{m_{1}}{m_{2}}\sqrt{ 2gH}
 \end{align}
 $$
+
 #### Punto C
+
 $$
 \begin{align}
 K_{B} & = \frac{1}{2}m_{1}v_{1_{B}}^2 = \frac{1}{2}m_{1}2gH \\
@@ -59,14 +62,18 @@ K_{C}  & = \frac{1}{2}m_{2}v_{2_{C}}^2 =  \frac{1}{2}m_{2}(\frac{m_{1}}{m_{2}})^
 K_{C}  & = \frac{m_{1}^2}{m_{2}}gH
 \end{align}
 $$
+
 Por tanto, la relación entre las energías cinéticas viene dado por:
+
 $$
 \begin{align}
 \frac{K_{C}}{K_{B}}  & = \frac{{ \frac{m_{1}^2}{m_{2}}gH}}{m_{1}gH} \\
 \frac{K_{C}}{K_{B}}  & = \frac{m_{1}}{m_{2}}
 \end{align}
 $$
+
 Para que el choque pueda considerarse elástico, la energía cinética inicial y final deben ser iguales. Entonces:
+
 $$
 \begin{align}
 K_{B} & = K_{C} \\
@@ -75,10 +82,13 @@ m_{1} & =\frac{m_{1}^2}{m_{2}} \\
 m_{1} & = m_{2}
 \end{align}
 $$
+
 Por tanto, se tiene que cumplir que las masas deben ser iguales para que el choque sea elástico.
 #### Punto D
- $\frac{m_{2}}{m_{1}} < 1 \implies m_{1}> m_{2}$. 
- Si la masa $m_{1}$ es mayor que $m_{2}$, la situación descrita en el enunciado no puede suceder. La velocidad de $m_{2}$ después del impacto será mayor que la velocidad de $m_{1}$, afectando directamente a la relación de energías cinéticas obtenida: $\frac{K_{C}}{K_{B}}=\frac{m_{1}}{m_{2}}$. Es decir, la energía cinética final sería mayor a la inicial, sin una reducción en la energía potencial gravitatoria, lo cuál sería imposible en este caso dado que no existen fuentes de energía interna afectando la energía mecánica del sistema durante la colisión.
+
+$\frac{m_{2}}{m_{1}} < 1 \implies m_{1}> m_{2}$. 
+
+Si la masa $m_{1}$ es mayor que $m_{2}$, la situación descrita en el enunciado no puede suceder. La velocidad de $m_{2}$ después del impacto será mayor que la velocidad de $m_{1}$, afectando directamente a la relación de energías cinéticas obtenida: $\frac{K_{C}}{K_{B}}=\frac{m_{1}}{m_{2}}$. Es decir, la energía cinética final sería mayor a la inicial, sin una reducción en la energía potencial gravitatoria, lo cuál sería imposible en este caso dado que no existen fuentes de energía interna afectando la energía mecánica del sistema durante la colisión.
 ## Ejercicio 2
 Un hilo muy largo se encuentra cargado con una densidad lineal de carga $\lambda$, uniformemente distribuida.
 ![Pasted image 20260524094359](../assets/Pasted%20image%2020260524094359.png)
@@ -91,6 +101,7 @@ Un hilo muy largo se encuentra cargado con una densidad lineal de carga $\lambda
 ### Resolución
 #### Punto A
 Para calcular el campo eléctrico que produce el hilo muy largo, usaremos la ley de gauss, definiendo una superficie gaussiana cilíndrica concéntrica al hilo, de largo l y radio r. Dada la distribución de la carga $\lambda$ en el hilo, el campo eléctrico no tiene preferencia horizontal sobre la la superficie que definimos, teniendo una dirección radial en todo punto de la misma, de tal forma que $\vec{E}\cdot \hat{n} = E$. Este el caso para la superficie cilíndrica, en el caso de las "tapas" de la superficie, tenemos: $\vec{E} \cdot \hat{n} = 0$. Utilizamos esta simetría a nuestro favor para simplificar los cálculos del campo:
+
 $$
 \begin{align}
 \Phi_{E}  & = \iint_{S} \vec{E} \cdot d \vec{S} \\
@@ -99,7 +110,9 @@ $$
 E  & = \frac{Q_{encl}}{\epsilon_{0} 2 \pi rl}
 \end{align}
 $$
+
 Siendo que $Q_{encl} = \lambda \times l$, nos quedamos con que $E = \frac{\lambda}{\epsilon_{0} 2 \pi r}$  en todo el espacio. Finalmente:
+
 $$
 \begin{align}
 \vec{E}(r) & = \frac{\lambda}{\epsilon_{0} 2 \pi r} \hat{r}
@@ -108,21 +121,27 @@ $$
 
 #### Punto B
 Para este punto, usamos una superficie gaussiana idéntica a la esfera abstracta descrita, con radio R. Para todo $dA$ de la esfera, acá no se cumple que $\vec{E} \cdot \hat{n}=E$, y tampoco que se cumple que la magnitud se mantiene constante. Por ejemplo, existen puntos de intersección entre el hilo y la esfera, donde $E \to \infty$, y otros puntos donde $\vec{E} \cdot \hat{n} \neq E$ dado que el ángulo $\theta$ no es 0. Para calcular el flujo, seguimos usando la ley de Gauss, pero esta vez trabajando directamente con la expresión $\frac{Q_{encl}}{\epsilon_{0}}$:
+
 $$
 \begin{align}
 \Phi_{E}  & = \frac{Q_{encl}}{\epsilon_{0}} \\
 \end{align}
 $$
+
 La pregunta que nos surge entonces es: ¿Cuál es la carga del hilo que encierra la esfera? Si consideramos las dos intersecciones que la superficie de la esfera tiene con el hilo, nos damos cuenta que ocurren en puntos a distancia R del centro de la esfera. Por tanto, la distancia total encerrada del hilo es 2R. Por tanto:
+
 $$
 \begin{align}
 \Phi_{E} = \frac{\lambda \times 2R}{\epsilon_{0}}
 \end{align}
 $$
+
 #### Punto C
+
 El campo eléctrico cambia, el flujo eléctrico no:
 - La ley de Coulomb expresa que el campo eléctrico generado por un diferencial de carga $dq$ decae con una relación $1/r^2$. La cantidad de carga de un lado o del otro de un punto depende de la longitud $l$ de ese segmento. Si consideramos un punto en la superficie de la esfera que no se encuentra en el plano medio del hilo, la distancia a los extremos es asimétrica. Debido a la fuerte dependencia con $1/r^2$, el campo eléctrico axial generado por el segmento más corto y cercano supera al del segmento más largo y lejano. Por lo tanto, las componentes axiales no se cancelan, modificando la dirección y magnitud del campo eléctrico respecto a la expresión obtenida en el **punto a**.
 - Respecto al flujo eléctrico obtenido, la carga encerrada sigue siendo la misma, siendo determinada por la longitud del hilo que encierra la superficie. Por tanto, no se ve alterado.
+
 ## Ejercicio 3
 
 Dos capacitores plano-paralelos tienen la misma superficie ($S=700\text{ mm}^{2}$) y la misma separación entre placas ($d=0,2\text{ mm}$). El capacitor $C_{1}$ tiene aire entre sus placas, mientras que el capacitor $C_{2}$ tiene un dieléctrico de permitividad relativa $\epsilon_{r}=3$ (recordar que la permitividad relativa modifica el valor de la permitividad del medio, llevando a $\epsilon=\epsilon_r \epsilon_0$).
